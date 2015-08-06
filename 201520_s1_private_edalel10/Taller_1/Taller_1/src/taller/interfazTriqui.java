@@ -82,10 +82,16 @@ public class interfazTriqui
            System.out.print("Ingrese la posición de columna");
            int b = sc.nextInt();
          Triqui.ponerTurno(b,a);
-         Triqui.revisarVictoria();
+         if(Triqui.revisarVictoria())
+         {
+           System.out.print("Ha ganado: "+Triqui.turnoActual);
+           finish=true;
+         }
+         
          if(Triqui.tableroLleno())
          {
            System.out.print("Hay un empate.");
+           finish=true;
          }
          Triqui.siguienteTurno();
            break;
@@ -97,7 +103,5 @@ public class interfazTriqui
            throw new RuntimeException("Invalid Option. Check the menu and try again.");
        }
      }
-     System.out.println("-------------------------------------------------------");
-     System.out.println(" ---> The result of the last operation is: "+calculator.getLasResult());
-     System.out.println("-------------------------------------------------------");
+     
 }
