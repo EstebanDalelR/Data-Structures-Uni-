@@ -54,33 +54,45 @@ public class interfazTriqui
      {
        System.out.println();
        System.out.println("Menú principal: ");
-       System.out.println("1 Add");
-       System.out.println("2 Subtract");
-       System.out.println("3 Multiply");
-       System.out.println("4 Divide");
-       System.out.println("5 Salir");
+       System.out.println("1 iniciar");
+       System.out.println("2 Salir");
        System.out.println("-------------------------------------------------------");
      }
      private void handleOption(int opt)
      {
-       System.out.print("Enter the first number:");
-       int a = sc.nextInt();
-       System.out.print("Enter the second number:");
-       int b = sc.nextInt();
+       
        switch(opt)
        {
          case 1:
-           calculator.add(a,b);
+           Triqui.inicializar();
+           System.out.println("--------------------");
+           for(int i=0;i<3;i++)
+           {
+             System.out.println("|");
+             for(int j=0;j<3;j++)
+             {
+               System.out.println(tablero[i][j];)
+             }
+           }
+           //imprime el triqui
+           
+           System.out.print("Inician las X");
+           System.out.print("Ingrese la posición de fila");
+           int a = sc.nextInt();
+           System.out.print("Ingrese la posición de columna");
+           int b = sc.nextInt();
+         Triqui.ponerTurno(b,a);
+         Triqui.revisarVictoria();
+         if(Triqui.tableroLleno())
+         {
+           System.out.print("Hay un empate.");
+         }
+         Triqui.siguienteTurno();
            break;
          case 2:
-           calculator.subtract(a,b);
+           System.exit(0);
            break;
-         case 3:
-           calculator.multiply(a,b);
-           break;
-         case 4:
-           calculator.divide(a,b);
-           break;
+
          default :
            throw new RuntimeException("Invalid Option. Check the menu and try again.");
        }
