@@ -2,9 +2,9 @@ package Taller;
 
 public class interfazTriqui
 {
-  Triqui= new Triqui;
+        Triqui= new Triqui;
         sc = new Scanner(System.in);
-     }
+     
 
      private void show()
      {
@@ -33,15 +33,18 @@ public class interfazTriqui
                 {
                   handleOption(opt);
                 }
-              } else 
+              } 
+              else 
                 {
-                System.out.println("Invalid Option. Check the menu and try again.");
+                System.out.println("Opción inválida, vuelva a intentar");
                 }
-          } catch(InputMismatchException ex)
+          } 
+          catch(InputMismatchException ex)
           {
             sc.nextLine();
             System.out.println("El valor ingresado es inválido");
-          } catch(Exception ex)
+          } 
+          catch(Exception ex)
           {
             System.out.println("Ocurrió un error de ejecución "+ex.getMessage());
           }
@@ -50,12 +53,12 @@ public class interfazTriqui
      private void showMenu()
      {
        System.out.println();
-       System.out.println("Main Menu: ");
-       System.out.println("1. Add");
-       System.out.println("2. Subtract");
-       System.out.println("3. Multiply");
-       System.out.println("4. Divide");
-       System.out.println("5. Exit");
+       System.out.println("Menú principal: ");
+       System.out.println("1 Add");
+       System.out.println("2 Subtract");
+       System.out.println("3 Multiply");
+       System.out.println("4 Divide");
+       System.out.println("5 Salir");
        System.out.println("-------------------------------------------------------");
      }
      private void handleOption(int opt)
