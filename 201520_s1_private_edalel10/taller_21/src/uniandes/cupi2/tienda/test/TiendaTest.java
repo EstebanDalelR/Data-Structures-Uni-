@@ -99,7 +99,7 @@ public class TiendaTest extends TestCase
         assertEquals( "No hay ventas", 0.0, tienda.darPromedioVentas( ), 0.0 );
 
         //El primer producto es de drogueria
-        assertEquals( Producto.DROGUERIA, tienda.darProducto1( ).darTipo( ) );
+        assertEquals( Producto.TipoProducto.DROGUERIA, tienda.darProducto1( ).darTipo( ) );
     }
 
     /**

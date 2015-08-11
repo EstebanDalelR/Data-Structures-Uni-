@@ -64,7 +64,7 @@ public class Producto
     /**
      * Tipo del producto: PAPELERIA, SUPERMERCADO, DROGUERIA
      */
-    private int tipo;
+    private TipoProducto tipo;
 
     /**
      * Valor unitario del producto
@@ -98,7 +98,7 @@ public class Producto
      * @param cantidadBodegaP Cantidad inicial en la bodega. cantidadBodegaP >= 0.
      * @param cantidadMinimaP Cantidad m�nima que debe haber en bodega. cantidadMinimaP >= 0.
      */
-    public Producto( int tipoP, String nombreP, double valorUnitarioP, int cantidadBodegaP, int cantidadMinimaP )
+    public Producto( TipoProducto tipoP, String nombreP, double valorUnitarioP, int cantidadBodegaP, int cantidadMinimaP )
     {
         tipo = tipoP;
         nombre = nombreP;
@@ -121,7 +121,7 @@ public class Producto
      */
    
    public enum TipoProducto {
-      PAPELERIA, SUPERMERCADO, DROGUERIA;
+      PAPELERIA, SUPERMERCADO, DROGUERIA
     }
     public String darNombre( )
     {
@@ -132,7 +132,7 @@ public class Producto
      * Retorna el tipo del producto.
      * @return tipo.
      */
-    public int darTipo( )
+    public TipoProducto darTipo( )
     {
         return tipo;
     }

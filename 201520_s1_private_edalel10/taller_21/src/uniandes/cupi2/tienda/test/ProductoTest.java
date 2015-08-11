@@ -38,7 +38,7 @@ public class ProductoTest extends TestCase
      */
     private void setupEscenario1( )
     {
-        int tipo = Producto.TipoProducto.DROGUERIA;
+        Producto.TipoProducto tipo = Producto.TipoProducto.DROGUERIA;
         String nombre = "item";
         double valorUnitario = 200.0;
         int cantidadBodega = 10;
