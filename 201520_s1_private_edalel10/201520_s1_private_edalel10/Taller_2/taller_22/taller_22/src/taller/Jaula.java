@@ -1,6 +1,6 @@
   package taller;
   
-  public class Jaula<T extends Comparable<T>> {
+  public class Jaula<T> {
     
   
     private T t;
