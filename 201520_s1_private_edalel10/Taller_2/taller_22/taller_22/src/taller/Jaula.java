@@ -11,6 +11,9 @@
     public void vaciarJaula(){
       t=null;
     }
+    public int quienEsMayor(T r){
+     return t.getEdad.compareTo(r.getEdad);
+    }
   }
   
   
