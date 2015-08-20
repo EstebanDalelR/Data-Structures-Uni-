@@ -4,7 +4,7 @@ public class Zoologico {
 
     public void ejecutarPruebasGenericidad() {
       Jaguar Pedro=new Jaguar(10,10,"duro", false);
-      Jaula<Animal> jaulaNueva=new Jaula<Animal>();
+      Jaula jaulaNueva=new Jaula<Jaguar>();
       jaulaNueva.asignarAnimal(Pedro);
       
       //TODO: Cree las jaulas y siga los pasos de la guía      
@@ -12,7 +12,7 @@ public class Zoologico {
   
     public static String compararAnimales(Jaula<Animal> anim1, Jaula<Animal> anim2) {
 
-      Jaula<Animal> jaulaNueva=new Jaula<Animal>();
+      Jaula jaulaNueva=new Jaula<Jaguar>();
         //TODO: Modifique el método para hacer las pruebas
         Animal mayor = null;
 

@@ -1,6 +1,6 @@
   package taller;
   
-  public class Jaula<T extends Comparable<T>> {
+  public class Jaula<T> {
     
   
     private T t;
@@ -10,9 +10,6 @@
     }
     public void vaciarJaula(){
       t=null;
-    }
-    public int quienEsMayor(T r){
-     return t.getEdad.compareTo(r.getEdad);
     }
   }
   
