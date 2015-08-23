@@ -1,0 +1,13 @@
+package taller
+  public class EstructurasAzar{
+  
+  
+  public EstructurasAzar{
+  List listica= new LinkedList();
+  ArrayList arreglito= new ArrayList;
+  public boolean llenarLista{
+    
+    
+  }
+  
+}
