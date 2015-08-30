@@ -1,8 +1,0 @@
-package taller.test;
-
-import junit.framework.TestCase;
-
-public class EstructurasAzarTest extends TestCase{
-  
-  
-}
