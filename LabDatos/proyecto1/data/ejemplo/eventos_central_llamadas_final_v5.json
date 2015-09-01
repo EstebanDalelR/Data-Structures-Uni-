@@ -1,0 +1,521 @@
+[
+  {
+    "evento_control" : "INICIAR_CENTRAL_LLAMADAS"
+  },
+  {
+    "evento_control" : "CREAR_AGENTE",
+    "agente":{"id_agente":1,"nombre_agente":"Gabriela","apellido_agente":"Vazquez"}
+  },
+  {
+    "evento_control" : "CREAR_AGENTE",
+    "agente":{"id_agente":2,"nombre_agente":"Sara","apellido_agente":"Navarro"}
+  },
+  {
+    "evento_control" : "CREAR_AGENTE",
+    "agente":{"id_agente":3,"nombre_agente":"María Camila","apellido_agente":"Lopez garcia"}
+  },
+  {
+    "evento_control" : "CREAR_AGENTE",
+    "agente":{"id_agente":4,"nombre_agente":"Valeria","apellido_agente":"Dominguez"}
+  },
+  {
+    "evento_control" : "CREAR_AGENTE",
+    "agente":{"id_agente":5,"nombre_agente":"Samuel","apellido_agente":"Ramos"}
+  },
+  {
+    "evento_control" : "CREAR_AGENTE",
+    "agente":{"id_agente":6,"nombre_agente":"Santiago","apellido_agente":"Garcia lopez"}
+  },
+  {
+    "evento_control" : "CREAR_AGENTE",
+    "agente":{"id_agente":7,"nombre_agente":"Juan José","apellido_agente":"Garcia perez"}
+  },
+  {
+    "evento_control" : "CREAR_AGENTE",
+    "agente":{"id_agente":8,"nombre_agente":"Nicolás","apellido_agente":"Castro"}
+  },
+{
+    "evento_control" : "AGREGAR_CLIENTE",
+    "cliente":{"id_cliente":1,"nombre":"Isabella","apellido":"Lopez","direccion":"Calle 11 # 98 - 32","ciudad":"Bucaramanga"}
+  },
+{
+    "evento_control" : "AGREGAR_CLIENTE",
+"cliente":{"id_cliente":2,"nombre":"Mariana","apellido":"Perez","direccion":"Carrera 57 # 53 - 70","ciudad":"Bogotá"}
+  },
+{
+    "evento_control" : "AGREGAR_CLIENTE",
+"cliente":{"id_cliente":3,"nombre":"MaríaJosé","apellido":"Gonzalez","direccion":"Diagonal 70 # 99 - 3","ciudad":"Florencia"}
+  },
+{
+    "evento_control" : "AGREGAR_CLIENTE",
+"cliente":{"id_cliente":4,"nombre":"Sofía","apellido":"Sanchez","direccion":"Calle 62 # 21 - 71","ciudad":"Santa Marta"}
+  },
+{
+    "evento_control" : "AGREGAR_CLIENTE",
+"cliente":{"id_cliente":5,"nombre":"Sara Sofía","apellido":"Martinez","direccion":"Carrera 48 # 110 - 70","ciudad":"Cartagena"}
+  },
+{
+    "evento_control" : "AGREGAR_CLIENTE",
+"cliente":{"id_cliente":6,"nombre":"Valentina","apellido":"Rodriguez","direccion":"Diagonal 89 # 87 - 92","ciudad":"Pasto"}
+  },
+{
+    "evento_control" : "AGREGAR_CLIENTE",
+"cliente":{"id_cliente":7,"nombre":"Gabriela","apellido":"Fernandez","direccion":"Calle 101 # 62 - 21","ciudad":"Mitú"}
+  },
+{
+    "evento_control" : "AGREGAR_CLIENTE",
+"cliente":{"id_cliente":8,"nombre":"Sara","apellido":"Gomez","direccion":"Carrera 19 # 80 - 18","ciudad":"Quibdó"}
+  },
+{
+    "evento_control" : "AGREGAR_CLIENTE",
+"cliente":{"id_cliente":9,"nombre":"María Camila","apellido":"Martin","direccion":"Diagonal 44 # 89 - 1","ciudad":"Cúcuta"}
+  },
+{
+    "evento_control" : "AGREGAR_CLIENTE",
+"cliente":{"id_cliente":10,"nombre":"Valeria","apellido":"Garcia garcia","direccion":"Calle 106 # 55 - 44","ciudad":"Arauca"}
+  },
+{
+    "evento_control" : "AGREGAR_CLIENTE",
+"cliente":{"id_cliente":11,"nombre":"Samuel","apellido":"Hernandez","direccion":"Carrera 38 # 72 - 11","ciudad":"Puerto Leguízamo"}
+  },
+{
+    "evento_control" : "AGREGAR_CLIENTE",
+"cliente":{"id_cliente":12,"nombre":"Santiago","apellido":"Ruiz","direccion":"Diagonal 73 # 73 - 96","ciudad":"Puerto Alfonzo"}
+  },
+{
+    "evento_control" : "AGREGAR_CLIENTE",
+"cliente":{"id_cliente":13,"nombre":"Juan José","apellido":"Diaz","direccion":"Calle 116 # 72 - 67","ciudad":"Puerto Inirida"}
+  },
+{
+    "evento_control" : "AGREGAR_CLIENTE",
+"cliente":{"id_cliente":14,"nombre":"Nicolás","apellido":"Alvarez","direccion":"Carrera 11 # 101 - 43","ciudad":"Popayán"}
+  },
+{
+    "evento_control" : "AGREGAR_CLIENTE",
+"cliente":{"id_cliente":15,"nombre":"Sebastián","apellido":"Jimenez","direccion":"Diagonal 120 # 80 - 73","ciudad":"Tunja"}
+  },
+{
+    "evento_control" : "AGREGAR_CLIENTE",
+"cliente":{"id_cliente":16,"nombre":"Alejandro","apellido":"Lopez lopez","direccion":"Calle 84 # 61 - 54","ciudad":"Medellin"}
+  },
+{
+    "evento_control" : "AGREGAR_CLIENTE",
+"cliente":{"id_cliente":17,"nombre":"Tomás","apellido":"Moreno","direccion":"Carrera 116 # 41 - 11","ciudad":"Yopal"}
+  },
+{
+    "evento_control" : "AGREGAR_CLIENTE",
+"cliente":{"id_cliente":18,"nombre":"Miguel Ángel","apellido":"Perez perez","direccion":"Diagonal 39 # 88 - 63","ciudad":"Bucaramanga"}
+  },
+{
+    "evento_control" : "AGREGAR_CLIENTE",
+"cliente":{"id_cliente":19,"nombre":"Juan Sebastián","apellido":"Munoz","direccion":"Calle 47 # 118 - 41","ciudad":"Bogotá"}
+  },
+{
+    "evento_control" : "AGREGAR_CLIENTE",
+"cliente":{"id_cliente":20,"nombre":"Juan Esteban","apellido":"Alonso","direccion":"Carrera 38 # 104 - 1","ciudad":"Florencia"}
+  },
+{
+    "evento_control" : "AGREGAR_CLIENTE",
+"cliente":{"id_cliente":21,"nombre":"Martina","apellido":"Gutierrez","direccion":"Diagonal 96 # 97 - 39","ciudad":"Santa Marta"}
+  },
+{
+    "evento_control" : "AGREGAR_CLIENTE",
+"cliente":{"id_cliente":22,"nombre":"Antonia","apellido":"Romero","direccion":"Calle 80 # 68 - 44","ciudad":"Cartagena"}
+  },
+{
+    "evento_control" : "AGREGAR_CLIENTE",
+"cliente":{"id_cliente":23,"nombre":"Sofía","apellido":"Sanz","direccion":"Carrera 18 # 42 - 50","ciudad":"Pasto"}
+  },
+{
+    "evento_control" : "AGREGAR_CLIENTE",
+"cliente":{"id_cliente":24,"nombre":"Emilia","apellido":"Torres","direccion":"Diagonal 110 # 118 - 61","ciudad":"Mitú"}
+  },
+{
+    "evento_control" : "AGREGAR_CLIENTE",
+"cliente":{"id_cliente":25,"nombre":"Florencia","apellido":"Suarez","direccion":"Calle 113 # 26 - 27","ciudad":"Quibdó"}
+  },
+{
+    "evento_control" : "AGREGAR_CLIENTE",
+"cliente":{"id_cliente":26,"nombre":"Valentina","apellido":"Ramirez","direccion":"Carrera 119 # 72 - 52","ciudad":"Cúcuta"}
+  },
+{
+    "evento_control" : "AGREGAR_CLIENTE",
+"cliente":{"id_cliente":27,"nombre":"Isidora","apellido":"Vazquez","direccion":"Diagonal 115 # 19 - 79","ciudad":"Arauca"}
+  },
+{
+    "evento_control" : "AGREGAR_CLIENTE",
+"cliente":{"id_cliente":28,"nombre":"Catalina","apellido":"Navarro","direccion":"Calle 64 # 114 - 64","ciudad":"Puerto Leguízamo"}
+  },
+{
+    "evento_control" : "AGREGAR_CLIENTE",
+"cliente":{"id_cliente":29,"nombre":"Josefa","apellido":"Lopez garcia","direccion":"Carrera 83 # 58 - 39","ciudad":"Puerto Alfonzo"}
+  },
+{
+    "evento_control" : "AGREGAR_CLIENTE",
+"cliente":{"id_cliente":30,"nombre":"Antonella","apellido":"Dominguez","direccion":"Diagonal 55 # 113 - 73","ciudad":"Puerto Inirida"}
+  },
+{
+    "evento_control" : "AGREGAR_CLIENTE",
+"cliente":{"id_cliente":31,"nombre":"Benjamin","apellido":"Ramos","direccion":"Calle 47 # 119 - 74","ciudad":"Popayán"}
+  },
+{
+    "evento_control" : "AGREGAR_CLIENTE",
+"cliente":{"id_cliente":32,"nombre":"Vicente","apellido":"Garcia lopez","direccion":"Carrera 116 # 115 - 65","ciudad":"Tunja"}
+  },
+{
+    "evento_control" : "AGREGAR_CLIENTE",
+"cliente":{"id_cliente":33,"nombre":"Martín","apellido":"Garcia perez","direccion":"Diagonal 66 # 53 - 60","ciudad":"Medellin"}
+  },
+{
+    "evento_control" : "AGREGAR_CLIENTE",
+"cliente":{"id_cliente":34,"nombre":"Matías","apellido":"Castro","direccion":"Calle 84 # 102 - 86","ciudad":"Yopal"}
+  },
+{
+    "evento_control" : "AGREGAR_CLIENTE",
+"cliente":{"id_cliente":35,"nombre":"Maximiliano","apellido":"Gil","direccion":"Carrera 78 # 120 - 9","ciudad":"Bucaramanga"}
+  },
+{
+    "evento_control" : "AGREGAR_CLIENTE",
+"cliente":{"id_cliente":36,"nombre":"Agustín","apellido":"Flores","direccion":"Diagonal 27 # 58 - 38","ciudad":"Bogotá"}
+  },
+{
+    "evento_control" : "AGREGAR_CLIENTE",
+"cliente":{"id_cliente":37,"nombre":"Cristóbal","apellido":"Morales","direccion":"Calle 90 # 67 - 95","ciudad":"Florencia"}
+  },
+{
+    "evento_control" : "AGREGAR_CLIENTE",
+"cliente":{"id_cliente":38,"nombre":"Sebastián","apellido":"Blanco","direccion":"Carrera 92 # 55 - 60","ciudad":"Santa Marta"}
+  },
+{
+    "evento_control" : "AGREGAR_CLIENTE",
+"cliente":{"id_cliente":39,"nombre":"Tomás","apellido":"Sanchez sanchez","direccion":"Diagonal 29 # 71 - 80","ciudad":"Cartagena"}
+  },
+{
+    "evento_control" : "AGREGAR_CLIENTE",
+"cliente":{"id_cliente":40,"nombre":"Alonso","apellido":"Fernandez fernandez","direccion":"Calle 18 # 87 - 35","ciudad":"Pasto"}
+  },
+{
+    "evento_control" : "AGREGAR_CLIENTE",
+"cliente":{"id_cliente":41,"nombre":"Sofía","apellido":"Serrano","direccion":"Carrera 38 # 24 - 85","ciudad":"Mitú"}
+  },
+{
+    "evento_control" : "AGREGAR_CLIENTE",
+"cliente":{"id_cliente":42,"nombre":"Valentina","apellido":"Molina","direccion":"Diagonal 23 # 24 - 41","ciudad":"Quibdó"}
+  },
+{
+    "evento_control" : "AGREGAR_CLIENTE",
+"cliente":{"id_cliente":43,"nombre":"Martina","apellido":"Martinez martinez","direccion":"Calle 29 # 77 - 41","ciudad":"Cúcuta"}
+  },
+{
+    "evento_control" : "AGREGAR_CLIENTE",
+"cliente":{"id_cliente":44,"nombre":"Catalina","apellido":"Ortiz","direccion":"Carrera 56 # 10 - 24","ciudad":"Arauca"}
+  },
+{
+    "evento_control" : "AGREGAR_CLIENTE",
+"cliente":{"id_cliente":45,"nombre":"Julieta","apellido":"Perez lopez","direccion":"Diagonal 117 # 24 - 54","ciudad":"Puerto Leguízamo"}
+  },
+{
+    "evento_control" : "AGREGAR_CLIENTE",
+"cliente":{"id_cliente":46,"nombre":"Benjamín","apellido":"Gonzalez gonzalez","direccion":"Calle 59 # 82 - 12","ciudad":"Puerto Alfonzo"}
+  },
+{
+    "evento_control" : "AGREGAR_CLIENTE",
+"cliente":{"id_cliente":47,"nombre":"Santiago","apellido":"Santos","direccion":"Carrera 69 # 94 - 76","ciudad":"Puerto Inirida"}
+  },
+{
+    "evento_control" : "AGREGAR_CLIENTE",
+"cliente":{"id_cliente":48,"nombre":"Joaquín","apellido":"Perez garcia","direccion":"Diagonal 84 # 22 - 10","ciudad":"Popayán"}
+  },
+{
+    "evento_control" : "AGREGAR_CLIENTE",
+"cliente":{"id_cliente":49,"nombre":"Bautista","apellido":"Ortega","direccion":"Calle 25 # 102 - 12","ciudad":"Tunja"}
+  },
+{
+    "evento_control" : "AGREGAR_CLIENTE",
+"cliente":{"id_cliente":50,"nombre":"Santino","apellido":"Garcia","direccion":"Carrera 107 # 38 - 9","ciudad":"Medellin"}
+  },
+{
+    "evento_control": "AGREGAR_PEDIDO_DESPACHO",
+"pedido_despacho":{"id_despacho":1,"id_cliente":1,"punto_recogida":[0,2],"punto_entrega":[0.5,1]}
+},
+{
+    "evento_control": "AGREGAR_PEDIDO_DESPACHO",
+"pedido_despacho":{"id_despacho":2,"id_cliente":18,"punto_recogida":[1,5],"punto_entrega":[0.7,0]}
+},
+{
+    "evento_control": "AGREGAR_PEDIDO_DESPACHO",
+"pedido_despacho":{"id_despacho":3,"id_cliente":35,"punto_recogida":[3,4.5],"punto_entrega":[-0.5,9]}
+},
+{
+    "evento_control": "AGREGAR_PEDIDO_DESPACHO",
+"pedido_despacho":{"id_despacho":4,"id_cliente":1,"punto_recogida":[2,4],"punto_entrega":[1,2]}
+},
+{
+    "evento_control": "AGREGAR_PEDIDO_DESPACHO",
+"pedido_despacho":{"id_despacho":5,"id_cliente":3,"punto_recogida":[0,-2],"punto_entrega":[1,0]}
+},
+{
+    "evento_control": "AGREGAR_PEDIDO_DESPACHO",
+"pedido_despacho":{"id_despacho":6,"id_cliente":20,"punto_recogida":[-0.5,0],"punto_entrega":[-0.5,-4]}
+},
+{
+    "evento_control": "AGREGAR_PEDIDO_DESPACHO",
+"pedido_despacho":{"id_despacho":7,"id_cliente":38,"punto_recogida":[-1,-1],"punto_entrega":[-1,-3]}
+},
+{
+    "evento_control": "AGREGAR_PEDIDO_DESPACHO",
+"pedido_despacho":{"id_despacho":8,"id_cliente":4,"punto_recogida":[2,3],"punto_entrega":[1.5,11]}
+},
+{
+    "evento_control": "AGREGAR_PEDIDO_DESPACHO",
+"pedido_despacho":{"id_despacho":9,"id_cliente":5,"punto_recogida":[-0.7,0],"punto_entrega":[1,7]}
+},
+{
+    "evento_control": "AGREGAR_PEDIDO_DESPACHO",
+"pedido_despacho":{"id_despacho":10,"id_cliente":22,"punto_recogida":[0,6],"punto_entrega":[-1,3]}
+},
+{
+    "evento_control": "AGREGAR_PEDIDO_DESPACHO",
+"pedido_despacho":{"id_despacho":11,"id_cliente":2,"punto_recogida":[0,1],"punto_entrega":[0,3]}
+},
+{
+    "evento_control": "AGREGAR_PEDIDO_DESPACHO",
+"pedido_despacho":{"id_despacho":12,"id_cliente":19,"punto_recogida":[3,2],"punto_entrega":[-3,1]}
+},
+{
+    "evento_control": "AGREGAR_PEDIDO_DESPACHO",
+"pedido_despacho":{"id_despacho":13,"id_cliente":17,"punto_recogida":[5,1],"punto_entrega":[4,3]}
+},
+{
+    "evento_control": "AGREGAR_PEDIDO_DESPACHO",
+"pedido_despacho":{"id_despacho":14,"id_cliente":34,"punto_recogida":[3,0],"punto_entrega":[0,2]}
+},
+{
+    "evento_control": "AGREGAR_PEDIDO_DESPACHO",
+"pedido_despacho":{"id_despacho":15,"id_cliente":2,"punto_recogida":[-2,0],"punto_entrega":[-5,-4]}
+},
+{
+    "evento_control": "AGREGAR_PEDIDO_DESPACHO",
+"pedido_despacho":{"id_despacho":16,"id_cliente":6,"punto_recogida":[-4,-1],"punto_entrega":[-3,-5]}
+},
+{
+    "evento_control": "AGREGAR_PEDIDO_DESPACHO",
+"pedido_despacho":{"id_despacho":17,"id_cliente":23,"punto_recogida":[-4.5,-3],"punto_entrega":[0,-3]}
+},
+{
+    "evento_control": "AGREGAR_PEDIDO_DESPACHO",
+"pedido_despacho":{"id_despacho":18,"id_cliente":7,"punto_recogida":[4,-5],"punto_entrega":[4,0]}
+},
+{
+    "evento_control": "AGREGAR_PEDIDO_DESPACHO",
+"pedido_despacho":{"id_despacho":19,"id_cliente":24,"punto_recogida":[7,-3],"punto_entrega":[0,1]}
+},
+{
+    "evento_control": "AGREGAR_PEDIDO_DESPACHO",
+"pedido_despacho":{"id_despacho":20,"id_cliente":8,"punto_recogida":[-1,0],"punto_entrega":[-1,2]}
+},
+{
+    "evento_control": "AGREGAR_PEDIDO_DESPACHO",
+"pedido_despacho":{"id_despacho":21,"id_cliente":36,"punto_recogida":[4,0],"punto_entrega":[2,6]}
+},
+{
+    "evento_control": "AGREGAR_PEDIDO_DESPACHO",
+"pedido_despacho":{"id_despacho":22,"id_cliente":43,"punto_recogida":[0,3],"punto_entrega":[2,0]}
+},
+{
+    "evento_control": "AGREGAR_PEDIDO_DESPACHO",
+"pedido_despacho":{"id_despacho":23,"id_cliente":10,"punto_recogida":[8,2],"punto_entrega":[4,4]}
+},
+{
+    "evento_control": "AGREGAR_PEDIDO_DESPACHO",
+"pedido_despacho":{"id_despacho":24,"id_cliente":11,"punto_recogida":[-0.5,-6],"punto_entrega":[6,0]}
+},
+{
+    "evento_control": "AGREGAR_PEDIDO_DESPACHO",
+"pedido_despacho":{"id_despacho":25,"id_cliente":28,"punto_recogida":[-1,-4],"punto_entrega":[2,1]}
+},
+{
+    "evento_control": "AGREGAR_PEDIDO_DESPACHO",
+"pedido_despacho":{"id_despacho":26,"id_cliente":45,"punto_recogida":[-0.5,0],"punto_entrega":[-1,1]}
+},
+{
+    "evento_control": "AGREGAR_PEDIDO_DESPACHO",
+"pedido_despacho":{"id_despacho":27,"id_cliente":47,"punto_recogida":[6,-1],"punto_entrega":[0,-0.5]}
+},
+{
+    "evento_control": "AGREGAR_PEDIDO_DESPACHO",
+"pedido_despacho":{"id_despacho":28,"id_cliente":19,"punto_recogida":[1,0],"punto_entrega":[-0.5,0]}
+},
+{
+    "evento_control": "AGREGAR_PEDIDO_DESPACHO",
+"pedido_despacho":{"id_despacho":29,"id_cliente":32,"punto_recogida":[0,1],"punto_entrega":[0,2.5]}
+},
+{
+    "evento_control": "AGREGAR_PEDIDO_DESPACHO",
+"pedido_despacho":{"id_despacho":30,"id_cliente":2,"punto_recogida":[0,-2],"punto_entrega":[7,-4]}
+},
+{
+    "evento_control": "AGREGAR_PEDIDO_DESPACHO",
+"pedido_despacho":{"id_despacho":31,"id_cliente":12,"punto_recogida":[0,-4],"punto_entrega":[-2,-2]}
+},
+{
+    "evento_control": "AGREGAR_PEDIDO_DESPACHO",
+"pedido_despacho":{"id_despacho":32,"id_cliente":29,"punto_recogida":[3,-6],"punto_entrega":[0.2,0]}
+},
+{
+    "evento_control": "AGREGAR_PEDIDO_DESPACHO",
+"pedido_despacho":{"id_despacho":33,"id_cliente":46,"punto_recogida":[5,-7],"punto_entrega":[-3,-3]}
+},
+{
+    "evento_control": "AGREGAR_PEDIDO_DESPACHO",
+"pedido_despacho":{"id_despacho":34,"id_cliente":46,"punto_recogida":[6,-8],"punto_entrega":[3,0]}
+},
+{
+    "evento_control": "AGREGAR_PEDIDO_DESPACHO",
+"pedido_despacho":{"id_despacho":35,"id_cliente":2,"punto_recogida":[0,-1],"punto_entrega":[0.7,0]}
+},
+{
+    "evento_control": "AGREGAR_PEDIDO_DESPACHO",
+"pedido_despacho":{"id_despacho":36,"id_cliente":31,"punto_recogida":[-4,-2.5],"punto_entrega":[0,-3]}
+},
+{
+    "evento_control": "AGREGAR_PEDIDO_DESPACHO",
+"pedido_despacho":{"id_despacho":37,"id_cliente":14,"punto_recogida":[1,-2],"punto_entrega":[1,-1]}
+},
+
+{
+    "evento_datos": "CARGAR_LLAMADAS",
+    "llamadas":[
+        {"id_llamada":1,"categoria_llamada":"RECLAMO", "id_cliente":2, "pedido_despacho":30, "caso_nuevo":true,"id_caso":1, "id_caso_anterior":-1, "timestamp_llamada":"20/08/2015 09:00", "problema":{"tipo_problema":"ARTICULO_NO_RECOLECTADO", "timestamp_problema":"17/08/2015 10:30", "punto_problema":[0,-2]}},
+        
+        {"id_llamada":6,"categoria_llamada":"PREGUNTA", "id_cliente":2, "pedido_despacho":30, "caso_nuevo":false,"id_caso":1, "id_caso_anterior":1, "timestamp_llamada":"20/08/2015 12:00", "problema":{"tipo_problema":"INFORMACION_RECOLECCION", "timestamp_problema":"17/08/2015 10:30", "punto_problema":[0,-2]}},
+        
+        {"id_llamada":7,"categoria_llamada":"QUEJA", "id_cliente":2, "pedido_despacho":30, "caso_nuevo":true,"id_caso":6, "id_caso_anterior":1, "timestamp_llamada":"22/08/2015 10:28", "problema":{"tipo_problema":"MALA_INFORMACION_GESTOR", "timestamp_problema":"20/08/2015 12:00", "punto_problema":[0,-2]}},
+        
+    {"id_llamada":2,"categoria_llamada":"RECLAMO", "id_cliente":12, "pedido_despacho":31, "caso_nuevo":true,"id_caso":2, "id_caso_anterior":-1, "timestamp_llamada":"20/08/2015 09:50", "problema":{"tipo_problema":"ARTICULO_NO_RECOLECTADO", "timestamp_problema":"17/2015 13:00", "punto_problema":[0,-4]}},
+
+    {"id_llamada":3,"categoria_llamada":"RECLAMO", "id_cliente":29, "pedido_despacho":32, "caso_nuevo":true, "id_caso":3, "id_caso_anterior":-1, "timestamp_llamada":"21/08/2015 09:00", "problema":{"tipo_problema":"ENTREGA_NO_REALIZADA", "timestamp_problema":"18/08/2015 14:30", "punto_problema":[0.2,0]}},
+    
+    {"id_llamada":8,"categoria_llamada":"PREGUNTA", "id_cliente":29, "pedido_despacho":32, "caso_nuevo":false, "id_caso":3, "id_caso_anterior":3, "timestamp_llamada":"22/08/2015 11:37", "problema":{"tipo_problema":"INFORMACION_ENTREGA", "timestamp_problema":"21/08/2015 09:00", "punto_problema":[0.2,0]}},
+
+    {"id_llamada":4,"categoria_llamada":"RECLAMO", "id_cliente":46, "pedido_despacho":34, "caso_nuevo":true,"id_caso":4, "id_caso_anterior":-1, "timestamp_llamada":"23/08/2015 09:00", "problema":{"tipo_problema":"ENTREGA_NO_REALIZADA", "timestamp_problema":"17/08/2015 16:30", "punto_problema":[3,0]}},
+
+    {"id_llamada":5,"categoria_llamada":"RECLAMO", "id_cliente":14, "pedido_despacho":14, "caso_nuevo":true,"id_caso":5, "id_caso_anterior":-1, "timestamp_llamada":"22/08/2015 09:23", "problema":{"tipo_problema":"ENTREGA_NO_REALIZADA", "timestamp_problema":"18/08/2015 07:30", "punto_problema":[1,-1]}},
+    
+    {"id_llamada":9,"categoria_llamada":"PREGUNTA", "id_cliente":14, "pedido_despacho":14, "caso_nuevo":false,"id_caso":5, "id_caso_anterior":5, "timestamp_llamada":"23/08/2015 08:00", "problema":{"tipo_problema":"INFORMACION_ENTREGA", "timestamp_problema":"22/08/2015 09:23", "punto_problema":[1,-1]}},
+    
+    {"id_llamada":10,"categoria_llamada":"QUEJA", "id_cliente":14, "pedido_despacho":14, "caso_nuevo":true,"id_caso":7, "id_caso_anterior":5, "timestamp_llamada":"24/08/2015 13:00", "problema":{"tipo_problema":"INFORMACION_SUMINISTRADA_ERRADA", "timestamp_problema":"23/08/2015 08:00", "punto_problema":[1,-1]}},
+    
+    {"id_llamada":11,"categoria_llamada":"RECLAMO", "id_cliente":14, "pedido_despacho":14, "caso_nuevo":false,"id_caso":7, "id_caso_anterior":7, "timestamp_llamada":"24/08/2015 11:00", "problema":{"tipo_problema":"CIERRE_QUEJA_NO_SATISFACTORIA", "timestamp_problema":"23/08/2015 08:00", "punto_problema":[1,-1]}},
+    
+    {"id_llamada":12,"categoria_llamada":"PREGUNTA", "id_cliente":14, "pedido_despacho":14, "caso_nuevo":false,"id_caso":5, "id_caso_anterior":5, "timestamp_llamada":"25/08/2015 07:00", "problema":{"tipo_problema":"INFORMACION_ENTREGA", "timestamp_problema":"23/08/2015 08:00", "punto_problema":[1,-1]}},
+    
+    {"id_llamada":13,"categoria_llamada":"RECLAMO", "id_cliente":14, "pedido_despacho":14, "caso_nuevo":true,"id_caso":8, "id_caso_anterior":-1, "timestamp_llamada":"26/08/2015 15:00", "problema":{"tipo_problema":"PERDIDA_ARTICULO", "timestamp_problema":"18/08/2015 07:30", "punto_problema":[1,-1]}},
+    
+    {"id_llamada":14,"categoria_llamada":"RECLAMO", "id_cliente":14, "pedido_despacho":14, "caso_nuevo":false,"id_caso":8, "id_caso_anterior":8, "timestamp_llamada":"27/08/2015 18:00", "problema":{"tipo_problema":"MAL_SERVICIO_CONDUCTOR", "timestamp_problema":"18/08/2015 07:30", "punto_problema":[1,-1]}}
+    ]
+  },
+  
+  {
+    "evento_control": "ACTIVAR_AGENTE",
+    "id_agente":6
+  },
+  {
+    "evento_control": "ATENDER_LLAMADA"
+  },
+  {
+    "evento_control": "ATENDER_LLAMADA"
+  },
+  {
+    "evento_control": "ACTIVAR_AGENTE",
+    "id_agente":4
+  },
+  {
+    "evento_control": "ATENDER LLAMADA"
+  },
+  {
+    "evento_control": "CERRAR_CASO",
+    "id_caso":6
+  },
+  {
+    "evento_control": "ATENDER LLAMADA"
+  },
+  {
+    "evento_control": "CERRAR_CASO",
+    "id_caso":2
+  },
+  {
+    "evento_control": "ACTIVAR_AGENTE",
+    "id_agente":2
+  },
+  {
+    "evento_control": "CERRAR_CASO",
+    "id_caso":1
+  },
+  {
+    "evento_control": "ATENDER_LLAMADA"
+  },
+  {
+    "evento_control": "ATENDER_LLAMADA"
+  },
+  {
+    "evento_control": "CERRAR_CASO",
+    "id_caso":3
+  },
+  {
+    "evento_control": "ACTIVAR_AGENTE",
+    "id_agente":8
+  },
+  {
+    "evento_control": "ATENDER LLAMADA"
+  },
+  {
+    "evento_control": "CERRAR_CASO",
+    "id_caso":4
+  },
+  {
+    "evento_control": "ATENDER LLAMADA"
+  },
+  {
+    "evento_control": "ACTIVAR_AGENTE",
+    "id_agente":1
+  },
+  {
+    "evento_control": "ATENDER_LLAMADA"
+  },
+  {
+    "evento_control": "ATENDER_LLAMADA"
+  },
+  {
+    "evento_control": "CERRAR_CASO",
+    "id_caso":7
+  },
+  {
+    "evento_control": "ACTIVAR_AGENTE",
+    "id_agente":3
+  },
+  {
+    "evento_control": "ATENDER LLAMADA"
+  },
+  {
+    "evento_control": "ATENDER LLAMADA"
+  },
+  {
+    "evento_control": "ACTIVAR_AGENTE",
+    "id_agente":5
+  },
+  {
+    "evento_control": "ATENDER LLAMADA"
+  },
+  {
+    "evento_control": "ATENDER LLAMADA"
+  },
+  {
+    "evento_control": "CERRAR_CASO",
+    "id_caso":8
+  },
+  {
+    "evento_control":"CONSOLIDAR_LLAMADAS"
+  }
+
+]

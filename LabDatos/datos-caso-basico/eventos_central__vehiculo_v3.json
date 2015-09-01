@@ -1,0 +1,607 @@
+[{
+    "evento_control" : "INICIAR_CENTRAL_VEHICULO"
+  },
+{
+"evento_control" : "CREAR_VEHICULO",
+ "vehiculo" :{  "id_vehiculo": 1, "tipo_vehiculo":"CAMION", "placas":"AHS654", "modelo": 2003, "capacidad": 2, "unidad":"TONELADAS"}
+},
+{
+"evento_control" : "CREAR_VEHICULO",
+ "vehiculo" :{  "id_vehiculo": 2, "tipo_vehiculo":"FURGON", "placas":"TRK975", "modelo": 2008, "capacidad": 150, "unidad":"KILOGRAMOS"}
+},
+{
+"evento_control" : "CREAR_VEHICULO",
+ "vehiculo" :{  "id_vehiculo": 3, "tipo_vehiculo":"CAMION", "placas":"CTR230", "modelo": 2000, "capacidad": 1.5, "unidad":"TONELADAS"}
+},
+{
+"evento_control" : "CREAR_VEHICULO",
+ "vehiculo" :{  "id_vehiculo": 4, "tipo_vehiculo":"FURGON", "placas":"MGS784", "modelo": 2015, "capacidad": 180, "unidad":"KILOGRAMOS"}
+},
+{
+"evento_control" : "CREAR_VEHICULO",
+ "vehiculo" :{  "id_vehiculo": 5, "tipo_vehiculo":"CAMION", "placas":"TPP078", "modelo": 2010, "capacidad": 3, "unidad":"TONELADAS"}
+},
+{
+"evento_control" : "CREAR_VEHICULO",
+ "vehiculo" :{  "id_vehiculo": 6, "tipo_vehiculo":"FURGON", "placas":"TPM233", "modelo": 2001, "capacidad": 160, "unidad":"KILOGRAMOS"}
+},
+{
+"evento_control" : "CREAR_VEHICULO",
+ "vehiculo" :{  "id_vehiculo": 7, "tipo_vehiculo":"CAMION", "placas":"EPM057", "modelo": 1990, "capacidad": 1, "unidad":"TONELADAS"}
+},
+{
+"evento_control" : "CREAR_VEHICULO",
+ "vehiculo" :{  "id_vehiculo": 8, "tipo_vehiculo":"FURGON", "placas":"ETB009", "modelo": 2013, "capacidad": 150, "unidad":"KILOGRAMOS"}
+},
+{
+"evento_control" : "CREAR_VEHICULO",
+ "vehiculo" :{  "id_vehiculo": 9, "tipo_vehiculo":"CAMION", "placas":"FOR325", "modelo": 2002, "capacidad": 2, "unidad":"TONELADAS"}
+},
+{
+"evento_control" : "CREAR_VEHICULO",
+ "vehiculo" :{  "id_vehiculo": 10, "tipo_vehiculo":"FURGON", "placas":"SAN160", "modelo": 2007, "capacidad": 150, "unidad":"KILOGRAMOS"}
+},
+{
+"evento_control" : "CREAR_VEHICULO",
+ "vehiculo" :{  "id_vehiculo": 11, "tipo_vehiculo":"CAMION", "placas":"RUL669", "modelo": 2004, "capacidad": 1.5, "unidad":"TONELADAS"}
+},
+{
+"evento_control" : "CREAR_VEHICULO",
+ "vehiculo" :{  "id_vehiculo": 12, "tipo_vehiculo":"FURGON", "placas":"REN888", "modelo": 2015, "capacidad": 180, "unidad":"KILOGRAMOS"}
+},
+{
+"evento_control" : "CREAR_VEHICULO",
+ "vehiculo" :{  "id_vehiculo": 13, "tipo_vehiculo":"CAMION", "placas":"ARO754", "modelo": 2010, "capacidad": 3, "unidad":"TONELADAS"}
+},
+{
+"evento_control" : "CREAR_VEHICULO",
+ "vehiculo" :{  "id_vehiculo": 14, "tipo_vehiculo":"FURGON", "placas":"MOC270", "modelo": 2001, "capacidad": 160, "unidad":"KILOGRAMOS"}
+},
+{
+"evento_control" : "CREAR_VEHICULO",
+ "vehiculo" :{  "id_vehiculo": 15, "tipo_vehiculo":"CAMION", "placas":"PAL665", "modelo": 1990, "capacidad": 1, "unidad":"TONELADAS"}
+},
+{
+"evento_control" : "CREAR_VEHICULO",
+ "vehiculo" :{  "id_vehiculo": 16, "tipo_vehiculo":"FURGON", "placas":"RER543", "modelo": 2013, "capacidad": 150, "unidad":"KILOGRAMOS"}
+},
+{
+    "evento_control" : "AGREGAR_RUTA",
+    "ruta":{"id_ruta":1, "nombre_ruta": "Bogotá-Bucaramanga","segmentos" : [{ "punto_inicial" : [0,0], "punto_final" : [0,5]},{ "punto_inicial" : [0,5], "punto_final" : [3,5]},{ "punto_inicial" : [3,5], "punto_final" : [3,4]},{ "punto_inicial" : [3,4], "punto_final" : [1,4]},{ "punto_inicial" : [1,4], "punto_final" : [1,0]},{ "punto_inicial" : [1,0], "punto_final" : [0,0]}]}
+},
+{
+    "evento_control" : "AGREGAR_RUTA",
+"ruta":{"id_ruta":1, "nombre_ruta": "Bogotá-Bucaramanga","segmentos" : [{ "punto_inicial" : [0,0], "punto_final" : [0,5]},{ "punto_inicial" : [0,5], "punto_final" : [3,5]},{ "punto_inicial" : [3,5], "punto_final" : [3,4]},{ "punto_inicial" : [3,4], "punto_final" : [1,4]},{ "punto_inicial" : [1,4], "punto_final" : [1,0]},{ "punto_inicial" : [1,0], "punto_final" : [0,0]}]}
+},
+{
+    "evento_control" : "AGREGAR_RUTA",
+"ruta":{"id_ruta":2, "nombre_ruta": "Bogotá-Florencia","segmentos" : [{ "punto_inicial" : [0,0], "punto_final" : [-1,0]},{ "punto_inicial" : [-1,0], "punto_final" : [-1,-4]},{ "punto_inicial" : [-1,-4], "punto_final" : [0,-4]},{ "punto_inicial" : [0,-4], "punto_final" : [0,0]}]}
+},
+{
+    "evento_control" : "AGREGAR_RUTA",
+"ruta":{"id_ruta":3, "nombre_ruta": "Bogotá-Santa Marta","segmentos" : [{ "punto_inicial" : [0,0], "punto_final" : [2,0]},{ "punto_inicial" : [2,0], "punto_final" : [2,11]},{ "punto_inicial" : [2,11], "punto_final" : [1,11]},{ "punto_inicial" : [1,11], "punto_final" : [1,1]},{ "punto_inicial" : [1,1], "punto_final" : [0,1]},{ "punto_inicial" : [0,1], "punto_final" : [0,0]}]}
+},
+{
+    "evento_control" : "AGREGAR_RUTA",
+"ruta":{"id_ruta":4, "nombre_ruta": "Bogotá-Cartagena","segmentos" : [{ "punto_inicial" : [0,0], "punto_final" : [0,9]},{ "punto_inicial" : [0,9], "punto_final" : [-1,9]},{ "punto_inicial" : [-1,9], "punto_final" : [-1,0]},{ "punto_inicial" : [-1,0], "punto_final" : [0,0]}]}
+},
+{
+    "evento_control" : "AGREGAR_RUTA",
+"ruta":{"id_ruta":5, "nombre_ruta": "Bogotá-Pasto","segmentos" : [{ "punto_inicial" : [0,0], "punto_final" : [-4,0]},{ "punto_inicial" : [-4,0], "punto_final" : [-4,-3]},{ "punto_inicial" : [-4,-3], "punto_final" : [-5,-3]},{ "punto_inicial" : [-5,-3], "punto_final" : [-5,-5]},{ "punto_inicial" : [-5,-5], "punto_final" : [0,-5]},{ "punto_inicial" : [0,-5], "punto_final" : [0,0]}]}
+},
+{
+    "evento_control" : "AGREGAR_RUTA",
+"ruta":{"id_ruta":6, "nombre_ruta": "Bogotá-Mitú","segmentos" : [{ "punto_inicial" : [0,0], "punto_final" : [0,-5]},{ "punto_inicial" : [0,-5], "punto_final" : [7,-5]},{ "punto_inicial" : [7,-5], "punto_final" : [7,0]},{ "punto_inicial" : [7,0], "punto_final" : [0,0]}]}
+},
+{
+    "evento_control" : "AGREGAR_RUTA",
+"ruta":{"id_ruta":7, "nombre_ruta": "Bogotá-Quibdó","segmentos" : [{ "punto_inicial" : [0,0], "punto_final" : [-3,0]},{ "punto_inicial" : [-3,0], "punto_final" : [-3,2]},{ "punto_inicial" : [-3,2], "punto_final" : [0,2]},{ "punto_inicial" : [0,2], "punto_final" : [0,0]}]}
+},
+{
+    "evento_control" : "AGREGAR_RUTA",
+"ruta":{"id_ruta":8, "nombre_ruta": "Bogotá-Cúcuta","segmentos" : [{ "punto_inicial" : [0,0], "punto_final" : [0,6]},{ "punto_inicial" : [0,6], "punto_final" : [4,6]},{ "punto_inicial" : [4,6], "punto_final" : [4,0]},{ "punto_inicial" : [4,0], "punto_final" : [0,0]}]}
+},
+{
+    "evento_control" : "AGREGAR_RUTA",
+"ruta":{"id_ruta":9, "nombre_ruta": "Bogotá-Arauca","segmentos" : [{ "punto_inicial" : [0,0], "punto_final" : [8,0]},{ "punto_inicial" : [8,0], "punto_final" : [8,4]},{ "punto_inicial" : [8,4], "punto_final" : [0,4]},{ "punto_inicial" : [0,4], "punto_final" : [0,0]}]}
+},
+{
+    "evento_control" : "AGREGAR_RUTA",
+"ruta":{"id_ruta":10, "nombre_ruta": "Bogotá-Puerto Leguízamo","segmentos" : [{ "punto_inicial" : [0,0], "punto_final" : [0,-6]},{ "punto_inicial" : [0,-6], "punto_final" : [-1,-6]},{ "punto_inicial" : [-1,-6], "punto_final" : [-1,0]},{ "punto_inicial" : [-1,0], "punto_final" : [0,0]}]}
+},
+{
+    "evento_control" : "AGREGAR_RUTA",
+"ruta":{"id_ruta":11, "nombre_ruta": "Bogotá-Puerto Alfonzo","segmentos" : [{ "punto_inicial" : [0,0], "punto_final" : [0,-6]},{ "punto_inicial" : [0,-6], "punto_final" : [5,-6]},{ "punto_inicial" : [5,-6], "punto_final" : [5,-8]},{ "punto_inicial" : [5,-8], "punto_final" : [7,-8]},{ "punto_inicial" : [7,-8], "punto_final" : [7,0]},{ "punto_inicial" : [7,0], "punto_final" : [0,0]}]}
+},
+{
+    "evento_control" : "AGREGAR_RUTA",
+"ruta":{"id_ruta":12, "nombre_ruta": "Bogotá-Puerto Inirida","segmentos" : [{ "punto_inicial" : [0,0], "punto_final" : [12,0]},{ "punto_inicial" : [12,0], "punto_final" : [12,-1]},{ "punto_inicial" : [12,-1], "punto_final" : [0,-1]},{ "punto_inicial" : [0,-1], "punto_final" : [0,0]}]}
+},
+{
+    "evento_control" : "AGREGAR_RUTA",
+"ruta":{"id_ruta":13, "nombre_ruta": "Bogotá-Popayán","segmentos" : [{ "punto_inicial" : [0,0], "punto_final" : [0,-2]},{ "punto_inicial" : [0,-2], "punto_final" : [-4,-2]},{ "punto_inicial" : [-4,-2], "punto_final" : [-4,-3]},{ "punto_inicial" : [-4,-3], "punto_final" : [1,-3]},{ "punto_inicial" : [1,-3], "punto_final" : [1,0]},{ "punto_inicial" : [1,0], "punto_final" : [0,0]}]}
+},
+{
+    "evento_control" : "AGREGAR_RUTA",
+"ruta":{"id_ruta":14, "nombre_ruta": "Bogotá-Tunja","segmentos" : [{ "punto_inicial" : [0,0], "punto_final" : [2,0]},{ "punto_inicial" : [2,0], "punto_final" : [2,2]},{ "punto_inicial" : [2,2], "punto_final" : [0,2]},{ "punto_inicial" : [0,2], "punto_final" : [0,0]}]}
+},
+{
+    "evento_control" : "AGREGAR_RUTA",
+"ruta":{"id_ruta":15, "nombre_ruta": "Bogotá-Medellin","segmentos" : [{ "punto_inicial" : [0,0], "punto_final" : [0,3]},{ "punto_inicial" : [0,3], "punto_final" : [-1,3]},{ "punto_inicial" : [-1,3], "punto_final" : [-1,0]},{ "punto_inicial" : [-1,0], "punto_final" : [0,0]}]}
+},
+{
+    "evento_control" : "AGREGAR_CLIENTE",
+    "cliente":{"id_cliente":1,"nombre":"Isabella","apellido":"Lopez","direccion":"Calle 11 # 98 - 32","ciudad":"Bucaramanga"}
+  },
+{
+    "evento_control" : "AGREGAR_CLIENTE",
+"cliente":{"id_cliente":2,"nombre":"Mariana","apellido":"Perez","direccion":"Carrera 57 # 53 - 70","ciudad":"Bogotá"}
+  },
+{
+    "evento_control" : "AGREGAR_CLIENTE",
+"cliente":{"id_cliente":3,"nombre":"MaríaJosé","apellido":"Gonzalez","direccion":"Diagonal 70 # 99 - 3","ciudad":"Florencia"}
+  },
+{
+    "evento_control" : "AGREGAR_CLIENTE",
+"cliente":{"id_cliente":4,"nombre":"Sofía","apellido":"Sanchez","direccion":"Calle 62 # 21 - 71","ciudad":"Santa Marta"}
+  },
+{
+    "evento_control" : "AGREGAR_CLIENTE",
+"cliente":{"id_cliente":5,"nombre":"Sara Sofía","apellido":"Martinez","direccion":"Carrera 48 # 110 - 70","ciudad":"Cartagena"}
+  },
+{
+    "evento_control" : "AGREGAR_CLIENTE",
+"cliente":{"id_cliente":6,"nombre":"Valentina","apellido":"Rodriguez","direccion":"Diagonal 89 # 87 - 92","ciudad":"Pasto"}
+  },
+{
+    "evento_control" : "AGREGAR_CLIENTE",
+"cliente":{"id_cliente":7,"nombre":"Gabriela","apellido":"Fernandez","direccion":"Calle 101 # 62 - 21","ciudad":"Mitú"}
+  },
+{
+    "evento_control" : "AGREGAR_CLIENTE",
+"cliente":{"id_cliente":8,"nombre":"Sara","apellido":"Gomez","direccion":"Carrera 19 # 80 - 18","ciudad":"Quibdó"}
+  },
+{
+    "evento_control" : "AGREGAR_CLIENTE",
+"cliente":{"id_cliente":9,"nombre":"María Camila","apellido":"Martin","direccion":"Diagonal 44 # 89 - 1","ciudad":"Cúcuta"}
+  },
+{
+    "evento_control" : "AGREGAR_CLIENTE",
+"cliente":{"id_cliente":10,"nombre":"Valeria","apellido":"Garcia garcia","direccion":"Calle 106 # 55 - 44","ciudad":"Arauca"}
+  },
+{
+    "evento_control" : "AGREGAR_CLIENTE",
+"cliente":{"id_cliente":11,"nombre":"Samuel","apellido":"Hernandez","direccion":"Carrera 38 # 72 - 11","ciudad":"Puerto Leguízamo"}
+  },
+{
+    "evento_control" : "AGREGAR_CLIENTE",
+"cliente":{"id_cliente":12,"nombre":"Santiago","apellido":"Ruiz","direccion":"Diagonal 73 # 73 - 96","ciudad":"Puerto Alfonzo"}
+  },
+{
+    "evento_control" : "AGREGAR_CLIENTE",
+"cliente":{"id_cliente":13,"nombre":"Juan José","apellido":"Diaz","direccion":"Calle 116 # 72 - 67","ciudad":"Puerto Inirida"}
+  },
+{
+    "evento_control" : "AGREGAR_CLIENTE",
+"cliente":{"id_cliente":14,"nombre":"Nicolás","apellido":"Alvarez","direccion":"Carrera 11 # 101 - 43","ciudad":"Popayán"}
+  },
+{
+    "evento_control" : "AGREGAR_CLIENTE",
+"cliente":{"id_cliente":15,"nombre":"Sebastián","apellido":"Jimenez","direccion":"Diagonal 120 # 80 - 73","ciudad":"Tunja"}
+  },
+{
+    "evento_control" : "AGREGAR_CLIENTE",
+"cliente":{"id_cliente":16,"nombre":"Alejandro","apellido":"Lopez lopez","direccion":"Calle 84 # 61 - 54","ciudad":"Medellin"}
+  },
+{
+    "evento_control" : "AGREGAR_CLIENTE",
+"cliente":{"id_cliente":17,"nombre":"Tomás","apellido":"Moreno","direccion":"Carrera 116 # 41 - 11","ciudad":"Yopal"}
+  },
+{
+    "evento_control" : "AGREGAR_CLIENTE",
+"cliente":{"id_cliente":18,"nombre":"Miguel Ángel","apellido":"Perez perez","direccion":"Diagonal 39 # 88 - 63","ciudad":"Bucaramanga"}
+  },
+{
+    "evento_control" : "AGREGAR_CLIENTE",
+"cliente":{"id_cliente":19,"nombre":"Juan Sebastián","apellido":"Munoz","direccion":"Calle 47 # 118 - 41","ciudad":"Bogotá"}
+  },
+{
+    "evento_control" : "AGREGAR_CLIENTE",
+"cliente":{"id_cliente":20,"nombre":"Juan Esteban","apellido":"Alonso","direccion":"Carrera 38 # 104 - 1","ciudad":"Florencia"}
+  },
+{
+    "evento_control" : "AGREGAR_CLIENTE",
+"cliente":{"id_cliente":21,"nombre":"Martina","apellido":"Gutierrez","direccion":"Diagonal 96 # 97 - 39","ciudad":"Santa Marta"}
+  },
+{
+    "evento_control" : "AGREGAR_CLIENTE",
+"cliente":{"id_cliente":22,"nombre":"Antonia","apellido":"Romero","direccion":"Calle 80 # 68 - 44","ciudad":"Cartagena"}
+  },
+{
+    "evento_control" : "AGREGAR_CLIENTE",
+"cliente":{"id_cliente":23,"nombre":"Sofía","apellido":"Sanz","direccion":"Carrera 18 # 42 - 50","ciudad":"Pasto"}
+  },
+{
+    "evento_control" : "AGREGAR_CLIENTE",
+"cliente":{"id_cliente":24,"nombre":"Emilia","apellido":"Torres","direccion":"Diagonal 110 # 118 - 61","ciudad":"Mitú"}
+  },
+{
+    "evento_control" : "AGREGAR_CLIENTE",
+"cliente":{"id_cliente":25,"nombre":"Florencia","apellido":"Suarez","direccion":"Calle 113 # 26 - 27","ciudad":"Quibdó"}
+  },
+{
+    "evento_control" : "AGREGAR_CLIENTE",
+"cliente":{"id_cliente":26,"nombre":"Valentina","apellido":"Ramirez","direccion":"Carrera 119 # 72 - 52","ciudad":"Cúcuta"}
+  },
+{
+    "evento_control" : "AGREGAR_CLIENTE",
+"cliente":{"id_cliente":27,"nombre":"Isidora","apellido":"Vazquez","direccion":"Diagonal 115 # 19 - 79","ciudad":"Arauca"}
+  },
+{
+    "evento_control" : "AGREGAR_CLIENTE",
+"cliente":{"id_cliente":28,"nombre":"Catalina","apellido":"Navarro","direccion":"Calle 64 # 114 - 64","ciudad":"Puerto Leguízamo"}
+  },
+{
+    "evento_control" : "AGREGAR_CLIENTE",
+"cliente":{"id_cliente":29,"nombre":"Josefa","apellido":"Lopez garcia","direccion":"Carrera 83 # 58 - 39","ciudad":"Puerto Alfonzo"}
+  },
+{
+    "evento_control" : "AGREGAR_CLIENTE",
+"cliente":{"id_cliente":30,"nombre":"Antonella","apellido":"Dominguez","direccion":"Diagonal 55 # 113 - 73","ciudad":"Puerto Inirida"}
+  },
+{
+    "evento_control" : "AGREGAR_CLIENTE",
+"cliente":{"id_cliente":31,"nombre":"Benjamin","apellido":"Ramos","direccion":"Calle 47 # 119 - 74","ciudad":"Popayán"}
+  },
+{
+    "evento_control" : "AGREGAR_CLIENTE",
+"cliente":{"id_cliente":32,"nombre":"Vicente","apellido":"Garcia lopez","direccion":"Carrera 116 # 115 - 65","ciudad":"Tunja"}
+  },
+{
+    "evento_control" : "AGREGAR_CLIENTE",
+"cliente":{"id_cliente":33,"nombre":"Martín","apellido":"Garcia perez","direccion":"Diagonal 66 # 53 - 60","ciudad":"Medellin"}
+  },
+{
+    "evento_control" : "AGREGAR_CLIENTE",
+"cliente":{"id_cliente":34,"nombre":"Matías","apellido":"Castro","direccion":"Calle 84 # 102 - 86","ciudad":"Yopal"}
+  },
+{
+    "evento_control" : "AGREGAR_CLIENTE",
+"cliente":{"id_cliente":35,"nombre":"Maximiliano","apellido":"Gil","direccion":"Carrera 78 # 120 - 9","ciudad":"Bucaramanga"}
+  },
+{
+    "evento_control" : "AGREGAR_CLIENTE",
+"cliente":{"id_cliente":36,"nombre":"Agustín","apellido":"Flores","direccion":"Diagonal 27 # 58 - 38","ciudad":"Bogotá"}
+  },
+{
+    "evento_control" : "AGREGAR_CLIENTE",
+"cliente":{"id_cliente":37,"nombre":"Cristóbal","apellido":"Morales","direccion":"Calle 90 # 67 - 95","ciudad":"Florencia"}
+  },
+{
+    "evento_control" : "AGREGAR_CLIENTE",
+"cliente":{"id_cliente":38,"nombre":"Sebastián","apellido":"Blanco","direccion":"Carrera 92 # 55 - 60","ciudad":"Santa Marta"}
+  },
+{
+    "evento_control" : "AGREGAR_CLIENTE",
+"cliente":{"id_cliente":39,"nombre":"Tomás","apellido":"Sanchez sanchez","direccion":"Diagonal 29 # 71 - 80","ciudad":"Cartagena"}
+  },
+{
+    "evento_control" : "AGREGAR_CLIENTE",
+"cliente":{"id_cliente":40,"nombre":"Alonso","apellido":"Fernandez fernandez","direccion":"Calle 18 # 87 - 35","ciudad":"Pasto"}
+  },
+{
+    "evento_control" : "AGREGAR_CLIENTE",
+"cliente":{"id_cliente":41,"nombre":"Sofía","apellido":"Serrano","direccion":"Carrera 38 # 24 - 85","ciudad":"Mitú"}
+  },
+{
+    "evento_control" : "AGREGAR_CLIENTE",
+"cliente":{"id_cliente":42,"nombre":"Valentina","apellido":"Molina","direccion":"Diagonal 23 # 24 - 41","ciudad":"Quibdó"}
+  },
+{
+    "evento_control" : "AGREGAR_CLIENTE",
+"cliente":{"id_cliente":43,"nombre":"Martina","apellido":"Martinez martinez","direccion":"Calle 29 # 77 - 41","ciudad":"Cúcuta"}
+  },
+{
+    "evento_control" : "AGREGAR_CLIENTE",
+"cliente":{"id_cliente":44,"nombre":"Catalina","apellido":"Ortiz","direccion":"Carrera 56 # 10 - 24","ciudad":"Arauca"}
+  },
+{
+    "evento_control" : "AGREGAR_CLIENTE",
+"cliente":{"id_cliente":45,"nombre":"Julieta","apellido":"Perez lopez","direccion":"Diagonal 117 # 24 - 54","ciudad":"Puerto Leguízamo"}
+  },
+{
+    "evento_control" : "AGREGAR_CLIENTE",
+"cliente":{"id_cliente":46,"nombre":"Benjamín","apellido":"Gonzalez gonzalez","direccion":"Calle 59 # 82 - 12","ciudad":"Puerto Alfonzo"}
+  },
+{
+    "evento_control" : "AGREGAR_CLIENTE",
+"cliente":{"id_cliente":47,"nombre":"Santiago","apellido":"Santos","direccion":"Carrera 69 # 94 - 76","ciudad":"Puerto Inirida"}
+  },
+{
+    "evento_control" : "AGREGAR_CLIENTE",
+"cliente":{"id_cliente":48,"nombre":"Joaquín","apellido":"Perez garcia","direccion":"Diagonal 84 # 22 - 10","ciudad":"Popayán"}
+  },
+{
+    "evento_control" : "AGREGAR_CLIENTE",
+"cliente":{"id_cliente":49,"nombre":"Bautista","apellido":"Ortega","direccion":"Calle 25 # 102 - 12","ciudad":"Tunja"}
+  },
+{
+    "evento_control" : "AGREGAR_CLIENTE",
+"cliente":{"id_cliente":50,"nombre":"Santino","apellido":"Garcia","direccion":"Carrera 107 # 38 - 9","ciudad":"Medellin"}
+  },
+{
+    "evento_control": "AGREGAR_PEDIDO_DESPACHO",
+"pedido_despacho":{"id_despacho":1,"id_cliente":1,"punto_recogida":[0,2],"punto_entrega":[0.5,1]}
+},
+{
+    "evento_control": "AGREGAR_PEDIDO_DESPACHO",
+"pedido_despacho":{"id_despacho":2,"id_cliente":18,"punto_recogida":[1,5],"punto_entrega":[0.7,0]}
+},
+{
+    "evento_control": "AGREGAR_PEDIDO_DESPACHO",
+"pedido_despacho":{"id_despacho":3,"id_cliente":35,"punto_recogida":[3,4.5],"punto_entrega":[-0.5,9]}
+},
+{
+    "evento_control": "AGREGAR_PEDIDO_DESPACHO",
+"pedido_despacho":{"id_despacho":4,"id_cliente":1,"punto_recogida":[2,4],"punto_entrega":[1,2]}
+},
+{
+    "evento_control": "AGREGAR_PEDIDO_DESPACHO",
+"pedido_despacho":{"id_despacho":5,"id_cliente":3,"punto_recogida":[0,-2],"punto_entrega":[1,0]}
+},
+{
+    "evento_control": "AGREGAR_PEDIDO_DESPACHO",
+"pedido_despacho":{"id_despacho":6,"id_cliente":20,"punto_recogida":[-0.5,0],"punto_entrega":[-0.5,-4]}
+},
+{
+    "evento_control": "AGREGAR_PEDIDO_DESPACHO",
+"pedido_despacho":{"id_despacho":7,"id_cliente":38,"punto_recogida":[-1,-1],"punto_entrega":[-1,-3]}
+},
+{
+    "evento_control": "AGREGAR_PEDIDO_DESPACHO",
+"pedido_despacho":{"id_despacho":8,"id_cliente":4,"punto_recogida":[2,3],"punto_entrega":[1.5,11]}
+},
+{
+    "evento_control": "AGREGAR_PEDIDO_DESPACHO",
+"pedido_despacho":{"id_despacho":9,"id_cliente":5,"punto_recogida":[-0.7,0],"punto_entrega":[1,7]}
+},
+{
+    "evento_control": "AGREGAR_PEDIDO_DESPACHO",
+"pedido_despacho":{"id_despacho":10,"id_cliente":22,"punto_recogida":[0,6],"punto_entrega":[-1,3]}
+},
+{
+    "evento_control": "AGREGAR_PEDIDO_DESPACHO",
+"pedido_despacho":{"id_despacho":11,"id_cliente":2,"punto_recogida":[0,1],"punto_entrega":[0,3]}
+},
+{
+    "evento_control": "AGREGAR_PEDIDO_DESPACHO",
+"pedido_despacho":{"id_despacho":12,"id_cliente":19,"punto_recogida":[3,2],"punto_entrega":[-3,1]}
+},
+{
+    "evento_control": "AGREGAR_PEDIDO_DESPACHO",
+"pedido_despacho":{"id_despacho":13,"id_cliente":17,"punto_recogida":[5,1],"punto_entrega":[4,3]}
+},
+{
+    "evento_control": "AGREGAR_PEDIDO_DESPACHO",
+"pedido_despacho":{"id_despacho":14,"id_cliente":34,"punto_recogida":[3,0],"punto_entrega":[0,2]}
+},
+{
+    "evento_control": "AGREGAR_PEDIDO_DESPACHO",
+"pedido_despacho":{"id_despacho":15,"id_cliente":2,"punto_recogida":[-2,0],"punto_entrega":[-5,-4]}
+},
+{
+    "evento_control": "AGREGAR_PEDIDO_DESPACHO",
+"pedido_despacho":{"id_despacho":16,"id_cliente":6,"punto_recogida":[-4,-1],"punto_entrega":[-3,-5]}
+},
+{
+    "evento_control": "AGREGAR_PEDIDO_DESPACHO",
+"pedido_despacho":{"id_despacho":17,"id_cliente":23,"punto_recogida":[-4.5,-3],"punto_entrega":[0,-3]}
+},
+{
+    "evento_control": "AGREGAR_PEDIDO_DESPACHO",
+"pedido_despacho":{"id_despacho":18,"id_cliente":7,"punto_recogida":[4,-5],"punto_entrega":[4,0]}
+},
+{
+    "evento_control": "AGREGAR_PEDIDO_DESPACHO",
+"pedido_despacho":{"id_despacho":19,"id_cliente":24,"punto_recogida":[7,-3],"punto_entrega":[0,1]}
+},
+{
+    "evento_control": "AGREGAR_PEDIDO_DESPACHO",
+"pedido_despacho":{"id_despacho":20,"id_cliente":8,"punto_recogida":[-1,0],"punto_entrega":[-1,2]}
+},
+{
+    "evento_control": "AGREGAR_PEDIDO_DESPACHO",
+"pedido_despacho":{"id_despacho":21,"id_cliente":36,"punto_recogida":[4,0],"punto_entrega":[2,6]}
+},
+{
+    "evento_control": "AGREGAR_PEDIDO_DESPACHO",
+"pedido_despacho":{"id_despacho":22,"id_cliente":43,"punto_recogida":[0,3],"punto_entrega":[2,0]}
+},
+{
+    "evento_control": "AGREGAR_PEDIDO_DESPACHO",
+"pedido_despacho":{"id_despacho":23,"id_cliente":10,"punto_recogida":[8,2],"punto_entrega":[4,4]}
+},
+{
+    "evento_control": "AGREGAR_PEDIDO_DESPACHO",
+"pedido_despacho":{"id_despacho":24,"id_cliente":11,"punto_recogida":[-0.5,-6],"punto_entrega":[6,0]}
+},
+{
+    "evento_control": "AGREGAR_PEDIDO_DESPACHO",
+"pedido_despacho":{"id_despacho":25,"id_cliente":28,"punto_recogida":[-1,-4],"punto_entrega":[2,1]}
+},
+{
+    "evento_control": "AGREGAR_PEDIDO_DESPACHO",
+"pedido_despacho":{"id_despacho":26,"id_cliente":45,"punto_recogida":[-0.5,0],"punto_entrega":[-1,1]}
+},
+{
+    "evento_control": "AGREGAR_PEDIDO_DESPACHO",
+"pedido_despacho":{"id_despacho":27,"id_cliente":47,"punto_recogida":[6,-1],"punto_entrega":[0,-0.5]}
+},
+{
+    "evento_control": "AGREGAR_PEDIDO_DESPACHO",
+"pedido_despacho":{"id_despacho":28,"id_cliente":19,"punto_recogida":[1,0],"punto_entrega":[-0.5,0]}
+},
+{
+    "evento_control": "AGREGAR_PEDIDO_DESPACHO",
+"pedido_despacho":{"id_despacho":29,"id_cliente":32,"punto_recogida":[0,1],"punto_entrega":[0,2.5]}
+},
+{
+    "evento_control": "AGREGAR_PEDIDO_DESPACHO",
+"pedido_despacho":{"id_despacho":30,"id_cliente":2,"punto_recogida":[0,-2],"punto_entrega":[7,-4]}
+},
+{
+    "evento_control": "AGREGAR_PEDIDO_DESPACHO",
+"pedido_despacho":{"id_despacho":31,"id_cliente":12,"punto_recogida":[0,-4],"punto_entrega":[-2,-2]}
+},
+{
+    "evento_control": "AGREGAR_PEDIDO_DESPACHO",
+"pedido_despacho":{"id_despacho":32,"id_cliente":29,"punto_recogida":[3,-6],"punto_entrega":[0.2,0]}
+},
+{
+    "evento_control": "AGREGAR_PEDIDO_DESPACHO",
+"pedido_despacho":{"id_despacho":33,"id_cliente":46,"punto_recogida":[5,-7],"punto_entrega":[-3,-3]}
+},
+{
+    "evento_control": "AGREGAR_PEDIDO_DESPACHO",
+"pedido_despacho":{"id_despacho":34,"id_cliente":46,"punto_recogida":[6,-8],"punto_entrega":[3,0]}
+},
+{
+    "evento_control": "AGREGAR_PEDIDO_DESPACHO",
+"pedido_despacho":{"id_despacho":35,"id_cliente":2,"punto_recogida":[0,-1],"punto_entrega":[0.7,0]}
+},
+{
+    "evento_control": "AGREGAR_PEDIDO_DESPACHO",
+"pedido_despacho":{"id_despacho":36,"id_cliente":31,"punto_recogida":[-4,-2.5],"punto_entrega":[0,-3]}
+},
+{
+    "evento_control": "AGREGAR_PEDIDO_DESPACHO",
+"pedido_despacho":{"id_despacho":37,"id_cliente":14,"punto_recogida":[1,-2],"punto_entrega":[1,-1]}
+},
+ {
+    "evento_control": "ASOCIAR_RUTA_VEHICULO",
+    "ruta_vehiculo":{"vehiculo":1, "ruta":1}
+  },
+ {
+    "evento_control": "ASOCIAR_RUTA_VEHICULO",
+    "ruta_vehiculo":{"vehiculo":2, "ruta":2}
+  },
+ {
+    "evento_control": "ASOCIAR_RUTA_VEHICULO",
+    "ruta_vehiculo":{"vehiculo":3, "ruta":3}
+  },
+ {
+    "evento_control": "ASOCIAR_RUTA_VEHICULO",
+    "ruta_vehiculo":{"vehiculo":4, "ruta":4}
+  },
+ {
+    "evento_control": "ASOCIAR_RUTA_VEHICULO",
+    "ruta_vehiculo":{"vehiculo":5, "ruta":5}
+  },
+ {
+    "evento_control": "ASOCIAR_RUTA_VEHICULO",
+    "ruta_vehiculo":{"vehiculo":6, "ruta":6}
+  },
+ {
+    "evento_control": "ASOCIAR_RUTA_VEHICULO",
+    "ruta_vehiculo":{"vehiculo":7, "ruta":7}
+  },
+ {
+    "evento_control": "ASOCIAR_RUTA_VEHICULO",
+    "ruta_vehiculo":{"vehiculo":8, "ruta":8}
+  },
+ {
+    "evento_control": "ASOCIAR_RUTA_VEHICULO",
+    "ruta_vehiculo":{"vehiculo":9, "ruta":9}
+  },
+ {
+    "evento_control": "ASOCIAR_RUTA_VEHICULO",
+    "ruta_vehiculo":{"vehiculo":10, "ruta":10}
+  },
+ {
+    "evento_control": "ASOCIAR_RUTA_VEHICULO",
+    "ruta_vehiculo":{"vehiculo":11, "ruta":11}
+  },
+ {
+    "evento_control": "ASOCIAR_RUTA_VEHICULO",
+    "ruta_vehiculo":{"vehiculo":12, "ruta":12}
+  },
+ {
+    "evento_control": "ASOCIAR_RUTA_VEHICULO",
+    "ruta_vehiculo":{"vehiculo":13, "ruta":13}
+  }, {
+    "evento_control": "ASOCIAR_RUTA_VEHICULO",
+    "ruta_vehiculo":{"vehiculo":14, "ruta":14}
+  },
+ {
+    "evento_control": "ASOCIAR_RUTA_VEHICULO",
+    "ruta_vehiculo":{"vehiculo":15, "ruta":15}
+  },
+ {
+    "evento_control": "ASOCIAR_RUTA_VEHICULO",
+    "ruta_vehiculo":{"vehiculo":16, "ruta":16}
+  },
+{
+    "evento_control": "AGREGAR_EVENTOS_AUTORIZADOS",
+"eventos_autorizados":{"vehiculo":1,"ruta":1,"eventos":[{"evento":"CARGAR", "punto":[0,2],"id_cliente":1,"id_despacho":1},{"evento":"CARGAR", "punto":[1,5],"id_cliente":18,"id_despacho":2},{"evento":"CARGAR", "punto":[3,4.5],"id_cliente":35,"id_despacho":3},{"evento":"CARGAR", "punto":[2,4],"id_cliente":1,"id_despacho":4},{"evento":"DESCARGAR", "punto":[1,2],"id_cliente":1,"id_despacho":4},{"evento":"DESCARGAR", "punto":[0.7,0],"id_cliente":18,"id_despacho":2}]}
+},
+{
+    "evento_control": "AGREGAR_EVENTOS_AUTORIZADOS",
+"eventos_autorizados":{"vehiculo":2,"ruta":2,"eventos":[{"evento":"CARGAR", "punto":[0.5,0],"id_cliente":20,"id_despacho":6},{"evento":"CARGAR", "punto":[-1,-1],"id_cliente":38,"id_despacho":7},{"evento":"DESCARGAR", "punto":[-1,-3],"id_cliente":38,"id_despacho":7},{"evento":"DESCARGAR", "punto":[-0.5,-4],"id_cliente":20,"id_despacho":6},{"evento":"CARGAR", "punto":[0,-2],"id_cliente":3,"id_despacho":5}]}
+},
+{
+    "evento_control": "AGREGAR_EVENTOS_AUTORIZADOS",
+"eventos_autorizados":{"vehiculo":3,"ruta":3,"eventos":[{"evento":"DESCARGAR", "punto":[1,0],"id_cliente":3,"id_despacho":5},{"evento":"DESCARGAR", "punto":[1,7],"id_cliente":5,"id_despacho":9},{"evento":"DESCARGAR", "punto":[0.5,1],"id_cliente":1,"id_despacho":1}]}
+},
+{
+    "evento_control": "AGREGAR_EVENTOS_AUTORIZADOS",
+"eventos_autorizados":{"vehiculo":4,"ruta":4,"eventos":[{"evento":"CARGAR", "punto":[0,6],"id_cliente":22,"id_despacho":10},{"evento":"DESCARGAR", "punto":[-0.5,9],"id_cliente":35,"id_despacho":3},{"evento":"DESCARGAR", "punto":[-1,3],"id_cliente":22,"id_despacho":10},{"evento":"CARGAR", "punto":[-0.7,0],"id_cliente":5,"id_despacho":9}]}
+},
+{
+    "evento_control": "AGREGAR_EVENTOS_AUTORIZADOS",
+"eventos_autorizados":{"vehiculo":5,"ruta":5,"eventos":[{"evento":"CARGAR", "punto":[0,1],"id_cliente":2,"id_despacho":11},{"evento":"CARGAR", "punto":[3,2],"id_cliente":19,"id_despacho":12},{"evento":"CARGAR", "punto":[5,1],"id_cliente":17,"id_despacho":13},{"evento":"DESCARGAR", "punto":[3,0],"id_cliente":34,"id_despacho":14}]}
+},
+{
+    "evento_control": "AGREGAR_EVENTOS_AUTORIZADOS",
+"eventos_autorizados":{"vehiculo":6,"ruta":6,"eventos":[{"evento":"CARGAR", "punto":[-2,0],"id_cliente":2,"id_despacho":15},{"evento":"CARGAR", "punto":[-4,-1],"id_cliente":6,"id_despacho":16},{"evento":"CARGAR", "punto":[-4.5,-3],"id_cliente":23,"id_despacho":17},{"evento":"DESCARGAR", "punto":[-5,-4],"id_cliente":23,"id_despacho":17},{"evento":"DESCARGAR", "punto":[-3,-5],"id_cliente":6,"id_despacho":16},{"evento":"DESCARGAR", "punto":[0,-3],"id_cliente":2,"id_despacho":15}]}
+},
+{
+    "evento_control": "AGREGAR_EVENTOS_AUTORIZADOS",
+"eventos_autorizados":{"vehiculo":7,"ruta":7,"eventos":[{"evento":"DESCARGAR", "punto":[0,3],"id_cliente":2,"id_despacho":11},{"evento":"CARGAR", "punto":[4,-5],"id_cliente":7,"id_despacho":18},{"evento":"CARGAR", "punto":[7,-3],"id_cliente":24,"id_despacho":19},{"evento":"DESCARGAR", "punto":[4,0],"id_cliente":7,"id_despacho":18}]}
+},
+{
+    "evento_control": "AGREGAR_EVENTOS_AUTORIZADOS",
+"eventos_autorizados":{"vehiculo":8,"ruta":8,"eventos":[{"evento":"CARGAR", "punto":[-2,0],"id_cliente":8,"id_despacho":20},{"evento":"DESCARGAR", "punto":[-3,1],"id_cliente":19,"id_despacho":12},{"evento":"DESCARGAR", "punto":[-1,2],"id_cliente":8,"id_despacho":20},{"evento":"DESCARGAR", "punto":[0,1],"id_cliente":24,"id_despacho":19}]}
+},
+{
+    "evento_control": "AGREGAR_EVENTOS_AUTORIZADOS",
+"eventos_autorizados":{"vehiculo":9,"ruta":9,"eventos":[{"evento":"CARGAR", "punto":[0,3],"id_cliente":43,"id_despacho":22},{"evento":"DESCARGAR", "punto":[2,6],"id_cliente":36,"id_despacho":21},{"evento":"DESCARGAR", "punto":[4,3],"id_cliente":17,"id_despacho":13},{"evento":"DESCARGAR", "punto":[0,1],"id_cliente":43,"id_despacho":22}]}
+},
+{
+    "evento_control": "AGREGAR_EVENTOS_AUTORIZADOS",
+"eventos_autorizados":{"vehiculo":10,"ruta":10,"eventos":[{"evento":"CARGAR", "punto":[4,0],"id_cliente":36,"id_despacho":21},{"evento":"CARGAR", "punto":[8,2],"id_cliente":10,"id_despacho":23},{"evento":"DESCARGAR", "punto":[4,4],"id_cliente":10,"id_despacho":23},{"evento":"DESCARGAR", "punto":[0,2],"id_cliente":34,"id_despacho":14}]}
+},
+{
+    "evento_control": "AGREGAR_EVENTOS_AUTORIZADOS",
+"eventos_autorizados":{"vehiculo":11,"ruta":11,"eventos":[{"evento":"CARGAR", "punto":[-0.5,-6],"id_cliente":11,"id_despacho":24},{"evento":"CARGAR", "punto":[-1,-4],"id_cliente":28,"id_despacho":25},{"evento":"CARGAR", "punto":[-0.5,0],"id_cliente":45,"id_despacho":26}]}
+},
+{
+    "evento_control": "AGREGAR_EVENTOS_AUTORIZADOS",
+"eventos_autorizados":{"vehiculo":12,"ruta":12,"eventos":[{"evento":"CARGAR", "punto":[0,-2],"id_cliente":2,"id_despacho":30},{"evento":"CARGAR", "punto":[0,-4],"id_cliente":12,"id_despacho":31},{"evento":"CARGAR", "punto":[3,-6],"id_cliente":29,"id_despacho":32},{"evento":"CARGAR", "punto":[5,-7],"id_cliente":46,"id_despacho":33},{"evento":"CARGAR", "punto":[6,-8],"id_cliente":46,"id_despacho":34},{"evento":"DESCARGAR", "punto":[7,-4],"id_cliente":2,"id_despacho":30},{"evento":"DESCARGAR", "punto":[3,0],"id_cliente":46,"id_despacho":34}]}
+},
+{
+    "evento_control": "AGREGAR_EVENTOS_AUTORIZADOS",
+"eventos_autorizados":{"vehiculo":13,"ruta":13,"eventos":[{"evento":"DESCARGAR", "punto":[6,0],"id_cliente":11,"id_despacho":24},{"evento":"CARGAR", "punto":[6,-1],"id_cliente":47,"id_despacho":27},{"evento":"DESCARGAR", "punto":[0,-0.5],"id_cliente":47,"id_despacho":27}]}
+},
+{
+    "evento_control": "AGREGAR_EVENTOS_AUTORIZADOS",
+"eventos_autorizados":{"vehiculo":14,"ruta":14,"eventos":[{"evento":"CARGAR", "punto":[0,-1],"id_cliente":2,"id_despacho":35},{"evento":"DESCARGAR", "punto":[-2,-2],"id_cliente":12,"id_despacho":31},{"evento":"CARGAR", "punto":[-4,-2.5],"id_cliente":31,"id_despacho":36},{"evento":"DESCARGAR", "punto":[-3,-3],"id_cliente":46,"id_despacho":33},{"evento":"DESCARGAR", "punto":[0,-3],"id_cliente":31,"id_despacho":36},{"evento":"CARGAR", "punto":[1,-2],"id_cliente":14,"id_despacho":37},{"evento":"DESCARGAR", "punto":[1,-1],"id_cliente":14,"id_despacho":37},{"evento":"DESCARGAR", "punto":[0.7,0],"id_cliente":2,"id_despacho":35},{"evento":"DESCARGAR", "punto":[0.2,0],"id_cliente":29,"id_despacho":32}]}
+},
+{
+    "evento_control": "AGREGAR_EVENTOS_AUTORIZADOS",
+"eventos_autorizados":{"vehiculo":15,"ruta":15,"eventos":[{"evento":"CARGAR", "punto":[1,0],"id_cliente":19,"id_despacho":28},{"evento":"DESCARGAR", "punto":[2,1],"id_cliente":28,"id_despacho":25},{"evento":"CARGAR", "punto":[0,1],"id_cliente":32,"id_despacho":29}]}
+},
+{
+    "evento_control": "AGREGAR_EVENTOS_AUTORIZADOS",
+"eventos_autorizados":{"vehiculo":16,"ruta":16,"eventos":[{"evento":"DESCARGAR", "punto":[0,2.5],"id_cliente":32,"id_despacho":29},{"evento":"DESCARGAR", "punto":[-1,1],"id_cliente":45,"id_despacho":26},{"evento":"DESCARGAR", "punto":[-0.5,0],"id_cliente":19,"id_despacho":28}]}
+}
+]
