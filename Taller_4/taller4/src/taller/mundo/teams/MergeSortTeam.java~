@@ -1,0 +1,125 @@
+package taller.mundo.teams;
+
+/*
+ * MergeSortTeam.java
+ * This file is part of AlgorithmRace
+ *
+ * Copyright (C) 2015 - ISIS1206 Team 
+ *
+ * AlgorithmRace is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ * AlgorithmRace is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with AlgorithmRace. If not, see <http://www.gnu.org/licenses/>.
+ */
+
+import java.util.Arrays;
+import static taller.mundo.AlgorithmTournament.TipoOrdenamiento;
+
+public class MergeSortTeam extends AlgorithmTeam
+{
+     public MergeSortTeam()
+     {
+          super("Merge sort");
+          userDefined = true;
+     }
+
+     @Override
+     public Comparable[] sort(Comparable[] lista, TipoOrdenamiento orden)
+     {
+          return merge_sort(lista, orden);
+     }
+
+
+     private static Comparable[] merge_sort(Comparable[] lista, TipoOrdenamiento orden)
+     {
+          /**
+             A continuación, es posible observar el pseudocódigo de Merge sort. Esta versión es equivalente a la 
+             versión implementada en SampleMergeSortTeam
+             proceso de segmentación del arreglo puede ser realizdo de forma concurrente, a través del 
+             uso de Hilos de ejecución.
+
+             Nota:  Si desea implementar este algoritmo de forma concurrente es necesario tener en cuenta
+                   que solo debe crearse un número limitado de hilos de ejecución, debido a que el proceso
+                   principal y cada uno de los hilos de ejecución creados comparten el mismo espacio de memoria
+                   disponible para la ejecución del proceso principal. 
+
+                   Se recomienda crear una clase que implemente la interfaz Runnable 
+                   (http://docs.oracle.com/javase/7/docs/api/java/lang/Runnable.html) y ejecutar esta 
+                   instancia en un hilo de ejecución, i.e., Thread t = new Thread(new MyRunnable());
+
+                   No olvide unir los hilos de ejecución antes de finalizar cada proceso que los contiene. i.e., 
+                   t.join()
+
+             procedimiento merge_sort(lista : Lista, orden : TipoOrdenamiento)
+                Si longitud(lista) es 1:
+                   return lista
+                Opción 1: Implementación paralela
+                   Si longitud(lista) > 2:
+                      Iniciar un hilo de ejecución y ejecutar:
+ 
+                         izquierda : Lista -> merge_sort(lista, orden)
+
+                         Puede declarar la lista como un atributo de la clase auxiliar que implementa
+                         la interfaz Runnable y solicitar el valor de este atributo una vez el hilo
+                         de ejecución haya finalizado de procesar.
+ 
+                      derecha : Lista -> merge_sort(lista, orden, mitad, fin)
+                      Unir los hilos de ejecución
+
+                   De lo contrario, usar la opción 2.
+                Opción 2: Implementación secuencial.
+                   derecha : Lista -> merge_sort(lista, orden, inicio, mitad)
+                   izquierda : Lista -> merge_sort(lista, orden, mitad, fin)
+                lista = merge(lista, orden, derecha, izquierda)
+                return lista
+           **/
+           return lista;
+     }
+
+     private static Comparable[] merge(Comparable[] izquierda, Comparable[] derecha, TipoOrdenamiento orden)
+     {
+          /**
+            Este procedimiento tiene como objetivo, mezclar dos listas que se encuentran parcialmente
+            ordenadas.
+
+            function merge(izquierda : Lista, derecha : Lista, orden : TipoOrdenamiento)
+               i : Int -> longitud(izquierda)
+               j : Int -> longitud(derecha)
+
+               resultado : Lista -> Lista[longitud(izquierda)+longitud(derecha)]
+               pos : Int -> 0
+
+               Mientras i < longitud(izquierda) y j < longitud(derecha)
+                  Si izquierda[i] < derecha[j]       //Si el ordenamiento es DESCENDENTE debe ser izquierda[i] > derecha[j]
+                     resultado[pos] = izquierda[i]
+                     Incrementar i
+                  De lo contrario
+                     resultado[pos] = derecha[j]
+                     Incrementar j
+                  Incrementar pos
+
+               Mientras i < longitud(izquierda)
+                  resultado[pos] = izquierda[i]
+                  Incrementar i y pos
+
+               Mientras j < longitud(derecha)
+                  resultado[pos] = derecha[j]
+                  Incrementar j y pos
+
+               return resultado
+          **/
+
+          Comparable[] resultado = new Comparable[izquierda.length+derecha.length];
+          return resultado;
+     }
+
+
+}
