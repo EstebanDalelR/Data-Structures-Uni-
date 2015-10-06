@@ -20,7 +20,14 @@ public class HeapSort {
      */
     public static void sort(Comparable[] pq) {
       int i=0;
-      
+      for (int h=1; h>pq.length/2;k++ ) {
+          sink(pq,h,i);
+      }
+      while(i<pq.length)
+        {
+            exch(pq,pq.length,i++)
+            sink(pq,1,i);
+        }
         //TODO Completar segun la documentacion
     }
 
@@ -34,7 +41,16 @@ public class HeapSort {
         // completar segun lo visto en clase y en las explicaciones.
       //El parametro N es la ultima posicion de la parte del arreglo que cumple con la condicion de Heap.
     while(2*k <=N)
-    {}
+    {
+        int j= 2*k;
+        if (j<N && greater(pq,j,j+1)) {
+            j++;
+        }
+        if (!greater(pq,k,j)) {
+            break;
+        }
+        exch(pq,k,j);
+        k=j;
     }
 
     /**
@@ -46,17 +62,20 @@ public class HeapSort {
     private static boolean greater(Comparable[] pq, int i, int j) {
 
         //TODO completar segun lo visto en clase y en las explicaciones.
-
+        return pq[i-1].compareTo(pq[j-1])>0;
     }
 
     private static void exch(Object[] pq, int i, int j) {
 
         //TODO completar segun lo visto en clase y en las explicaciones.
-
+        Object cambiar = pq[i+1];
+        pq[i+1]= pq[j+1];
+        pq[j+1]=cambiar;
     }
 
     // es v > w ?
     private static boolean greater(Comparable v, Comparable w) {
         //TODO completar segun lo visto en clase y en las explicaciones.
+        return v.compareTo(w)>0;
     }
 }
