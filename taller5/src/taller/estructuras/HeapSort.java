@@ -31,7 +31,10 @@ public class HeapSort {
      */
 
     private static void sink(Comparable[] pq, int k, int N) {
-        //TODO completar segun lo visto en clase y en las explicaciones. El parametro N es la ultima posicion de la parte del arreglo que cumple con la condicion de Heap.
+        // completar segun lo visto en clase y en las explicaciones.
+      //El parametro N es la ultima posicion de la parte del arreglo que cumple con la condicion de Heap.
+    while(2*k <=N)
+    {}
     }
 
     /**

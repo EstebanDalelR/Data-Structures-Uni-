@@ -19,6 +19,8 @@ public class HeapSort {
      * @param pq el arreglo que sera ordenado
      */
     public static void sort(Comparable[] pq) {
+      int i=0;
+      
         //TODO Completar segun la documentacion
     }
 
