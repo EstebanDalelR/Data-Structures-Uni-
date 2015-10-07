@@ -222,7 +222,8 @@ public class MaxHeapPQ<Key> implements IMaxPQ<Key>  {
      * @return true si cumple con la condicion de Heap, falso en caso contrario
      */
     private boolean isMaxHeap() {
-        //TODO Completar segun la documentacion
+        return isMaxHeap(1);
+        // Completar segun la documentacion
     }
 
     /**
@@ -231,7 +232,19 @@ public class MaxHeapPQ<Key> implements IMaxPQ<Key>  {
      * @return true si cumple con la condicion de Heap, falso en caso contrario
      */
     private boolean isMaxHeap(int k) {
-        //TODO Completar segun la documentacion
+        if (k>N) {
+            return true;
+        }
+        int izq=2*k;
+        int der=2*k+1;
+        if (der<=N&& less(k, der)) {
+            return false;
+        }
+        if (izq<=N && less(k,der)) {
+            return false;
+        }
+        return isMaxHeap(der) && isMaxHeap (izq);
+        // Completar segun la documentacion
     }
 
 
