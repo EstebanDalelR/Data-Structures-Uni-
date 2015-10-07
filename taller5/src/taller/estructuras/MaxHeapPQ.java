@@ -100,7 +100,7 @@ public class MaxHeapPQ<Key> implements IMaxPQ<Key>  {
     }
 
     public Key max() {
-        //TODO Completar segun la documentacion
+        return pq[1];//TODO Completar segun la documentacion
     }
 
     /**
@@ -111,20 +111,37 @@ public class MaxHeapPQ<Key> implements IMaxPQ<Key>  {
 
       if (capacity > N)
       {
-        
+        Key[] temp = (Key[]) new Object[capacity];
+        for (int i = 1; i <= N; i++) {
+            temp[i] = pq[i];
       }
-        //TODO Completar segun la documentacion
+      pq=temp;
+        // Completar segun la documentacion
 
     }
 
     public void insert(Key x) {
-
-        //TODO Completar segun la documentacion
+        if (N >= pq.length - 1) 
+            {
+                resize(2 * pq.length);
+            }
+        pq[++N] = x;
+        swim(N);
+        // Completar segun la documentacion
     }
 
     public Key delMax() {
 
-        //TODO Completar segun la documenatcion
+        Key max = pq[1];
+        exch(1, N--);
+        sink(1);
+        pq[N+1] = null;     
+        if ((N > 0) && (N == (pq.length - 1) / 4))
+        {
+          resize(pq.length / 2);  
+        } 
+        return max;
+        // Completar segun la documenatcion
 
     }
 
@@ -140,14 +157,32 @@ public class MaxHeapPQ<Key> implements IMaxPQ<Key>  {
     ***************************************************************************/
 
     private void swim(int k) {
-
-        //TODO Completar segun lo visto en el curso y las explicaciones
+        while (k > 1 && less(k/2, k)) 
+        {
+            exch(k, k/2);
+            k = k/2;
+        }
+        // Completar segun lo visto en el curso y las explicaciones
 
     }
 
     private void sink(int k) {
 
-        //TODO Completar segun lo visto en el curso y las explicaciones
+        while (2*k <= N) 
+        {
+            int j = 2*k;
+            if (j < N && less(j, j+1)) 
+            {
+                j++;
+            }
+            if (!less(k, j))
+            {
+             break;
+            }
+            exch(k, j);
+            k = j;
+        }
+        // Completar segun lo visto en el curso y las explicaciones
 
     }
 
@@ -161,6 +196,7 @@ public class MaxHeapPQ<Key> implements IMaxPQ<Key>  {
      * @param j
      * @return true si i<j, false en caso contrario
      */
+
    private boolean less(int i, int j) {
         if (comparator == null) {
             return ((Comparable<Key>) pq[i]).compareTo(pq[j]) < 0;

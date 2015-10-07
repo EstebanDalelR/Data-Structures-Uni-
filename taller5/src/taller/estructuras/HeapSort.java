@@ -28,7 +28,7 @@ public class HeapSort {
             exch(pq,pq.length,i++)
             sink(pq,1,i);
         }
-        //TODO Completar segun la documentacion
+        // Completar segun la documentacion
     }
 
     /**
@@ -61,13 +61,13 @@ public class HeapSort {
     
     private static boolean greater(Comparable[] pq, int i, int j) {
 
-        //TODO completar segun lo visto en clase y en las explicaciones.
+        // completar segun lo visto en clase y en las explicaciones.
         return pq[i-1].compareTo(pq[j-1])>0;
     }
 
     private static void exch(Object[] pq, int i, int j) {
 
-        //TODO completar segun lo visto en clase y en las explicaciones.
+        // completar segun lo visto en clase y en las explicaciones.
         Object cambiar = pq[i+1];
         pq[i+1]= pq[j+1];
         pq[j+1]=cambiar;
@@ -75,7 +75,7 @@ public class HeapSort {
 
     // es v > w ?
     private static boolean greater(Comparable v, Comparable w) {
-        //TODO completar segun lo visto en clase y en las explicaciones.
+        // completar segun lo visto en clase y en las explicaciones.
         return v.compareTo(w)>0;
     }
 }
