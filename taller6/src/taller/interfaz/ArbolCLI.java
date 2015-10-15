@@ -20,7 +20,8 @@ public class ArbolCLI {
     public ArbolCLI()
     {
         in = new Scanner(System.in);
-        //ra = new ReconstructorArbol();   Remplace aquí con su mundo
+        ra = new Taller6();   
+        //Remplace aquí con su mundo
     }
 
     public void mainMenu()

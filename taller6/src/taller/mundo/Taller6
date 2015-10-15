@@ -1,14 +1,14 @@
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
-import java.util.Date;
 import java.util.Properties;
  
-public class Taller6
+public class ABB<Llave, Valor>
 {
 	InputStream inputStream;
  
-	public String getPropValues() throws IOException {
+	public String getPropValues() throws IOException 
+	{
  
 		try 
 		{
@@ -36,4 +36,18 @@ public class Taller6
 		}
 		return result;
 	}
+
+	public class Nodo
+	{
+		private Llave llave;
+		private Valor valor;
+		private Nodo siguiente;
+		public Nodo(Llave llaveN, Valor valorN, Nodo siguienteN)
+		{
+			this.llave =llaveN;
+			this.valor=valorN;
+			this.siguiente=siguienteN;
+		}
+	}
+
 }
