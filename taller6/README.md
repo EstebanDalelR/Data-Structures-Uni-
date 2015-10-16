@@ -1,0 +1,1 @@
+Preorden y posorden no son una combinación válida, posorden e inorden sí.
