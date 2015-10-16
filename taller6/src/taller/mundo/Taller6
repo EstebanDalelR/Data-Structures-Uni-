@@ -6,6 +6,7 @@ import java.util.Properties;
 public class ABB<Llave, Valor>
 {
 	InputStream inputStream;
+	private Nodo raiz;
  
 	public String getPropValues() throws IOException 
 	{
@@ -49,5 +50,20 @@ public class ABB<Llave, Valor>
 			this.siguiente=siguienteN;
 		}
 	}
+	//Constructor
+	public ABB()
+	{
 
+	}
+
+	public int darTamano()
+	{
+		return darTamano(raiz);
+	}
+
+	public boolean estaVacio()
+	{
+		return darTamano(raiz)==0;
+	}
+	
 }
