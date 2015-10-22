@@ -43,6 +43,7 @@ public class ABB<Llave, Valor>
 		private Llave llave;
 		private Valor valor;
 		private Nodo siguiente;
+		
 		public Nodo(Llave llaveN, Valor valorN, Nodo siguienteN)
 		{
 			this.llave =llaveN;
@@ -65,5 +66,22 @@ public class ABB<Llave, Valor>
 	{
 		return darTamano(raiz)==0;
 	}
-	
+
+	public boolean contieneLlave(Llave llaveN)
+	{
+		return darValor(llaveN)!=null;
+	}
+
+	public Valor darValor(Nodo nodoN, Llave llaveN)
+	{
+		if(nodoN==null)
+		{
+			return null;
+		}
+		int comparar = Llave.compareTo(nodoN.Llave);
+		if(comparar<0)
+		{
+			return darValor(nodoN.)
+		}
+	}
 }
