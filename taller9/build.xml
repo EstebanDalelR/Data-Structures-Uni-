@@ -74,6 +74,19 @@
 			sourcepath="${dir.src}" destdir="${dir.docs}/javadoc" />
 	</target>
 
+   <!--  Ejecuta y emite los resultados dispuestos por el conjunto de pruebas unitarias realizadas por los estudiantes  -->
+   <target name="test">
+      <junit fork="yes" printsummary="on" haltonfailure="on">
+        <formatter type="xml"/>
+        <batchtest fork="yes" todir="${junit.output.dir}">
+            <resources>
+               <zipfileset src="${jar.dir}" includes="**/*Test.class"/>
+            </resources> 
+        </batchtest>            
+        <classpath refid="testsplus.classpath"/>
+    </junit>
+   </target>
+
    <!-- Ejecuta todas las instrucciones de compilación descritas previamente, como
         resultado, se obtiene un archivo .jar ejecutable en la carpeta dist, ade-
         más del conjunto de documentos de javadoc en la carpeta docs.-->

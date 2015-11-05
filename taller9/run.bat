@@ -9,18 +9,18 @@ rem You should have received a copy of the GNU General Public License along with
 
 
 rem Realiza la compilación del archivo Jar
-rem call ant jar
+call ant all
 
 rem Consulta el resultado del proceso; en caso de que el proceso no haya sido
 rem exitoso, enviar un mensaje de alerta.
 
-rem if %ERRORLEVEL% NEQ 0 (
-rem     echo An error ocurred while building Java classes.
-rem     exit /B 2
-rem )
+ if %ERRORLEVEL% NEQ 0 (
+     echo An error ocurred while building Java classes.
+     exit /B 2
+ )
 
 rem La ventana de la consola es vaciada.
-rem call cls
+call cls
 
 rem Ejecución de la aplicación:
 

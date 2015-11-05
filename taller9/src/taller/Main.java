@@ -1,12 +1,15 @@
 package taller;
 
-public class Main{
-  
-  
-  public static void main(String[] args){
-    
-    System.out.println("taller");
-    
+import taller.interfaz.BogotaRoutingCLI;
+
+public class Main
+{
+  /**
+       Punto de entrada de la aplicación.
+   **/
+  public static void main(String[] args)
+  {
+      new BogotaRoutingCLI().mainMenu();
   }
   
 }

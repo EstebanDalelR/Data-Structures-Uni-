@@ -10,7 +10,7 @@
 
 
 #Realiza la compilación del archivo Jar
-#ant jar
+ant all
 
 #Consulta el resultado del proceso
 OUT=$?
